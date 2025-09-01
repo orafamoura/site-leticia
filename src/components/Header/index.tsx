@@ -1,19 +1,13 @@
 export default function Header() {
     return ( 
         <header>
-            <section className="py-2 bg-[#CEA35B] w-full inline-flex flex-nowrap">
-                <ul className="md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-[marquee_25s_linear_infinite]">
-                    <li className="flex items-center justify-center">
-                        <p className="text-xs gap-1 flex items-center"><img className="w-5" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
-                        <p className="text-xs">Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
-                    </li>
-                </ul>
-                <ul className="md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-[marquee_25s_linear_infinite]" aria-hidden="true">
-                    <li className="flex items-center justify-center">
-                        <p className="text-xs gap-1 flex items-center"><img className="w-5" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
-                        <p className="text-xs">Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
-                    </li>
-                </ul>
+            <section className="py-2 bg-[#CEA35B] inline-flex flex-nowrap justify-end">
+                <div className="w-max flex gap-5 items-center justify-center [&_p]:max-w-none animate-[marquee_10s_linear_infinite]">
+                    <p className="text-xs gap-1 flex items-center"><img className="w-5" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
+                    <p className="text-xs">Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
+                    <p className="text-xs gap-1 flex items-center"><img className="w-5" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
+                    <p className="text-xs">Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
+                </div>
             </section>
             <nav className="bg-white px-4 lg:px-6 py-2.5">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
