@@ -1,12 +1,20 @@
 export default function Header() {
     return ( 
         <header>
-            <section className="py-2 bg-[#CEA35B] inline-flex flex-nowrap justify-end">
-                <div className="w-max flex gap-5 items-center justify-center [&_p]:max-w-none animate-[marquee_10s_linear_infinite]">
-                    <p className="text-xs gap-1 flex items-center"><img className="w-5" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
-                    <p className="text-xs">Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
-                    <p className="text-xs gap-1 flex items-center"><img className="w-5" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
-                    <p className="text-xs">Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
+            <section className="w-full py-2 bg-[#CEA35B] flex flex-nowrap overflow-hidden">
+                <div className="sm:w-full flex sm:justify-center items-center whitespace-nowrap [&_p]:max-w-none animate-[marquee_20s_linear_infinite] sm:[animation-play-state:paused] sm:relative">
+                    <ul className="items-center sm:absolute sm:justify-center">
+                        <li className="flex items-center ">
+                            <p className="text-xs gap-1 flex items-center px-8"><img className="w-5" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
+                            <p className="text-xs px-8">Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
+                        </li>
+                    </ul>
+                    <ul className="sm:opacity-0">
+                        <li className="flex items-center">
+                            <p className="text-xs gap-1 flex items-center px-8"><img className="w-5" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
+                            <p className="text-xs px-8">Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
+                        </li>
+                    </ul>
                 </div>
             </section>
             <nav className="bg-white px-4 lg:px-6 py-2.5">
