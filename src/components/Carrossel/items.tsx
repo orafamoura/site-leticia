@@ -1,4 +1,5 @@
 import Button from "../Button";
+declare module '*.css';
 
 interface carrosselItemProps {
     carrosselTitulo: string,
@@ -8,7 +9,7 @@ interface carrosselItemProps {
 
 export default function CarrosselItem({carrosselTitulo, carrosselTexto, carrosselImg}: carrosselItemProps){
     return (
-        <div className="max-w-sm bg-white shadow-sm overflow-hidden">
+        <div className="max-w-sm bg-white shadow-sm">
             <a>
                 <img className="" src={carrosselImg} alt="" />
             </a>
