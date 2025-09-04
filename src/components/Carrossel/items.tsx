@@ -9,9 +9,9 @@ interface carrosselItemProps {
 
 export default function CarrosselItem({carrosselTitulo, carrosselTexto, carrosselImg}: carrosselItemProps){
     return (
-        <div className="max-w-sm bg-white shadow-sm">
-            <a>
-                <img className="" src={carrosselImg} alt="" />
+        <div className="max-w-full bg-white shadow-sm">
+            <a className="">
+                <img className="max-w-full h-auto block" src={carrosselImg} alt="" />
             </a>
             <div className="p-5">
                 <a>
