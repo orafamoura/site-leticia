@@ -11,11 +11,10 @@ export default function Carrossel() {
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCards]}
         spaceBetween={25}
         initialSlide={1}
-        effect='cards'
         slidesPerView='auto'
         autoplay={{delay: 3000}}
         breakpoints={{
-            640:  { slidesPerView: 1.3, autoplay:{delay: 3000 }, cardsEffect:{perSlideRotate:2, perSlideOffset:8, rotate: true, slideShadows:true}},
+            640:  { slidesPerView: 1.3, autoplay:{delay: 3000 }},
             1024: { slidesPerView: 1.8, autoplay:{delay: 3000 }},
             1280: { slidesPerView: 3, autoplay: false, enabled: false},
         }}

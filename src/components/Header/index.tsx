@@ -2,7 +2,7 @@ export default function Header() {
     return ( 
         <header>
             <section className="w-full py-2 bg-[#CEA35B] flex flex-nowrap overflow-hidden">
-                <div className="sm:w-full flex sm:justify-center items-center whitespace-nowrap [&_p]:max-w-none animate-[marquee_20s_linear_infinite] sm:[animation-play-state:paused] sm:relative">
+                <div className="w-full flex sm:justify-center items-center whitespace-nowrap [&_p]:max-w-none animate-[marquee_20s_linear_infinite] sm:[animation-play-state:paused] sm:relative">
                     <ul className="items-center sm:absolute sm:justify-center">
                         <li className="flex items-center ">
                             <p className="text-xs gap-1 flex items-center px-8"><img className="w-5" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>

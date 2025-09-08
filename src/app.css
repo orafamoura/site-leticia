@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+    --color-degrade-cinza: hsl(200, 21%, 43%)
+}
+
+@theme {
+    --color-cinza-transparente: hsla(201, 21%, 43%, .3)
+}
+
 @source "./index.html";
 @source "./src/**/*.{js,jsx,ts,tsx,html}";
 
