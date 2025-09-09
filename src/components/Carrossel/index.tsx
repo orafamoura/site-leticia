@@ -15,21 +15,21 @@ export default function Carrossel() {
         autoplay={{delay: 3000}}
         breakpoints={{
             640:  { slidesPerView: 1.3, autoplay:{delay: 3000 }},
-            1024: { slidesPerView: 1.8, autoplay:{delay: 3000 }},
-            1280: { slidesPerView: 3, autoplay: false, enabled: false},
+            1024: { slidesPerView: 1.5, autoplay:{delay: 3000 }},
+            1280: { initialSlide: 1, slidesPerView: 3, autoplay: false, enabled: false},
         }}
         centeredSlides={true}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
-            className="w-full md:max-w-100! lg:max-w-200! xl:max-w-300!">
+            className="w-full sm:max-w-3xl md:max-w-lg lg:max-w-3xl xl:max-w-6xl px-4!">
             <SwiperSlide >
-                <CarrosselItem carrosselTexto="Mantenha seu cérebro ativo e sua autonomia preservada com atividades e exercícios personalizados que estimulam a mente, previnem perdas cognitivas e promovem bem-estar e qualidade de vida ao longo do envelhecimento." carrosselTitulo="Manter o Cérebro Ativo" carrosselImg="../../../public/carrosselImagens/exemplo1.png"></CarrosselItem>
+                <CarrosselItem carrosselTexto="Mantenha seu cérebro ativo e sua autonomia preservada com atividades e exercícios personalizados que estimulam a mente, previnem perdas cognitivas e promovem bem-estar e qualidade de vida ao longo do envelhecimento." carrosselTitulo="Manter o Cérebro Ativo" carrosselImg="../../../public/carrosselImagens/exemplo.png"></CarrosselItem>
             </SwiperSlide>
             <SwiperSlide >
-                <CarrosselItem carrosselTexto="Mantenha seu cérebro ativo e sua autonomia preservada com atividades e exercícios personalizados que estimulam a mente, previnem perdas cognitivas e promovem bem-estar e qualidade de vida ao longo do envelhecimento." carrosselTitulo="Manter o Cérebro Ativo" carrosselImg="../../../public/carrosselImagens/exemplo1.png"></CarrosselItem>
+                <CarrosselItem carrosselTexto="Mantenha seu cérebro ativo e sua autonomia preservada com atividades e exercícios personalizados que estimulam a mente, previnem perdas cognitivas e promovem bem-estar e qualidade de vida ao longo do envelhecimento." carrosselTitulo="Manter o Cérebro Ativo" carrosselImg="../../../public/carrosselImagens/exemplo.png"></CarrosselItem>
             </SwiperSlide>
             <SwiperSlide >
-                <CarrosselItem carrosselTexto="Mantenha seu cérebro ativo e sua autonomia preservada com atividades e exercícios personalizados que estimulam a mente, previnem perdas cognitivas e promovem bem-estar e qualidade de vida ao longo do envelhecimento." carrosselTitulo="Manter o Cérebro Ativo" carrosselImg="../../../public/carrosselImagens/exemplo1.png"></CarrosselItem>
+                <CarrosselItem carrosselTexto="Mantenha seu cérebro ativo e sua autonomia preservada com atividades e exercícios personalizados que estimulam a mente, previnem perdas cognitivas e promovem bem-estar e qualidade de vida ao longo do envelhecimento." carrosselTitulo="Manter o Cérebro Ativo" carrosselImg="../../../public/carrosselImagens/exemplo.png"></CarrosselItem>
             </SwiperSlide>
         </Swiper>
     )

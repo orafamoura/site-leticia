@@ -14,6 +14,11 @@
 @theme {
     --color-dourado-base: rgb(206, 163, 91)
 }
+
+@theme {
+    --color-azul-base: rgb(0 ,136, 182)
+}
+
 @theme {
     --font-montserrat: "Montserrat", sans-serif
 }
