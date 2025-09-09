@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
 @import "tailwindcss";
+
+
 
 @theme {
     --color-degrade-cinza: hsl(200, 21%, 43%)
 }
 
 @theme {
-    --color-cinza-transparente: hsla(201, 21%, 43%, .3)
+    --color-degrade-cinza-transparente: hsl(200, 21%, 43%, 0.7)
+}
+
+@theme {
+    --color-dourado-base: rgb(206, 163, 91)
+}
+@theme {
+    --font-montserrat: "Montserrat", sans-serif
+}
+
+@theme { 
+    --color-botao-wpp: rgb(1, 180, 100);
 }
 
 @source "./index.html";
