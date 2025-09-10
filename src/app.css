@@ -4,26 +4,11 @@
 
 
 @theme {
-    --color-degrade-cinza: hsl(200, 21%, 43%)
-}
-
-@theme {
-    --color-degrade-cinza-transparente: hsl(200, 21%, 43%, 0.7)
-}
-
-@theme {
-    --color-dourado-base: rgb(206, 163, 91)
-}
-
-@theme {
-    --color-azul-base: rgb(0 ,136, 182)
-}
-
-@theme {
-    --font-montserrat: "Montserrat", sans-serif
-}
-
-@theme { 
+    --font-montserrat: "Montserrat", sans-serif;
+    --color-degrade-cinza: hsl(200, 21%, 43%);
+    --color-degrade-cinza-transparente: hsl(200, 21%, 43%, 0.7);
+    --color-dourado-base: rgb(206, 163, 91);
+    --color-azul-base: rgb(0 ,136, 182);
     --color-botao-wpp: rgb(1, 180, 100);
 }
 
