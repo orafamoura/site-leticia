@@ -9,14 +9,17 @@ interface carrosselItemProps {
 
 export default function CarrosselItem({carrosselTitulo, carrosselTexto, carrosselImg}: carrosselItemProps){
     return (
-        <div className="max-w-[380px] min-w-[340px]">
-            <img className="w-full h-[140px] rounded-t-lg" src={carrosselImg} alt="" />
-            <div className="border-transparent bg-azul-base">
-                <a>
-                    <h5 className="">{carrosselTitulo}</h5>
+        <div className="max-w-[300px] sm:max-w-[380px] min-w-[300px] border-transparent bg-azul-base rounded-lg flex flex-col justify-center">
+            <img className="w-full h-[140px] rounded-t-lg object-cover" src={carrosselImg} alt="" />
+            <div className="mx-4 my-2">
+                <a className="w-full">
+                    <h5 className="text-white text-xl sm:text-2xl font-bold">{carrosselTitulo}</h5>
+                    <p className="my-2 w-full max-w-3xs h-[2px] bg-dourado-base"></p>
                 </a>
-                <p className="">{carrosselTexto}</p>
-                <Button>Saiba Mais</Button>
+                <p className="text-white">{carrosselTexto}</p>
+            </div>
+            <div className="flex justify-center my-2.5">
+            <Button className="">Saiba Mais</Button>
             </div>
         </div>
 
