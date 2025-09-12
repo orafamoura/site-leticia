@@ -1,6 +1,7 @@
 import Button from "../../components/Button";
 import Carrossel from "../../components/Carrossel";
 import Header from "../../components/Header";
+import Servicos from "../../components/Servicos";
 
 export default function Home(){
     return (
@@ -27,10 +28,18 @@ export default function Home(){
                     </div>
                     <div className="w-full h-[30px] sm:h-[80px] bg-degrade-cinza [clip-path:polygon(0_0,100%_0,60%_80%,50%_100%,0_0%)]"></div>
                 </section>
-                <section className="w-full flex flex-col gap-5 items-center">
+                <section className="w-full h-auto flex flex-col gap-5 items-center ">
                     <h2 className="md:max-w-200 max-w-100 text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-5 sm:leading-8 font-bold text-azul-base md:mb-4 text-center">PARA QUEM É A TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA:</h2>
                     <p className="md:max-w-200 max-w-100 whitespace-normal text-base sm:text-lg md:text-xl lg:text-lg leading-5 sm:leading-6 text-center">No Instituto Inclusio, atendemos <strong>adultos e idosos</strong> que querem manter a mente ativa, preservar a autonomia e viver com mais qualidade de vida por meio de Terapia Ocupacional e Reabilitação Neurocognitiva personalizada.</p>
                     <Carrossel></Carrossel>
+                </section>
+                <section className="w-full bg-degrade-cinza h-screen">
+                    <div className="flex flex-col">
+                        <img className="w-full max-w-[380px] h-[130px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/images/nossosServicos.webp)]"></img>
+                        <div>
+                            <Servicos></Servicos>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>
