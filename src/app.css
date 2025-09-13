@@ -9,6 +9,29 @@
     --color-azul-base: rgb(0 ,136, 182);
     --color-botao-wpp: rgb(1, 180, 100);
     --breakpoint-3xl: 1920px;
+    --breakpoint-xs: 425px;
+}
+
+@utility text-titulo-cards {
+  font-size: var(--text-xl);
+
+  @variant sm { font-size: var(--text-xl); }
+}
+
+@utility text-cards {
+  font-size: var(--text-base);
+
+  @variant sm { font-size: var(--text-lg); }
+  @variant md { font-size: var(--text-xl); }
+  @variant lg { font-size: var(--text-lg); }
+}
+
+@utility text-medio {
+  font-size: var(--text-xl);     
+
+  @variant sm { font-size: var(--text-2xl); }
+  @variant md { font-size: var(--text-3xl); }
+  @variant lg { font-size: var(--text-4xl); }
 }
 
 @source "./index.html";
