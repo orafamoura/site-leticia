@@ -1,13 +1,14 @@
 import Button from "../../components/Button";
 import Carrossel from "../../components/Carrossel";
 import Header from "../../components/Header";
+import NossoAtendimento from "../../components/NossoAtendimento";
 import Servicos from "../../components/Servicos";
 
 export default function Home(){
     return (
         <div className="font-montserrat">
             <Header></Header>
-            <div className=" flex flex-col gap-6">
+            <div className=" flex flex-col gap-6 max-w-[1920px] 3xl:justify-self-center">
                 <section className="w-full">
                     <div className="w-auto relative">
                         <img className="block w-full h-[350px] sm:h-[860px] object-cover object-center sm:object-top" src="/images/fotoPrincipal.webp" alt="foto" />
@@ -33,11 +34,25 @@ export default function Home(){
                     <p className="md:max-w-200 max-w-100 whitespace-normal text-base sm:text-lg md:text-xl lg:text-lg leading-5 sm:leading-6 text-center">No Instituto Inclusio, atendemos <strong>adultos e idosos</strong> que querem manter a mente ativa, preservar a autonomia e viver com mais qualidade de vida por meio de Terapia Ocupacional e Reabilitação Neurocognitiva personalizada.</p>
                     <Carrossel></Carrossel>
                 </section>
-                <section className="w-full bg-degrade-cinza h-screen">
-                    <div className="flex flex-col">
+                <section className="w-full ">
+                    <div className=" h-[70%] flex flex-col bg-degrade-cinza">
                         <img className="w-full max-w-[380px] h-[130px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/images/nossosServicos.webp)]"></img>
                         <div>
                             <Servicos></Servicos>
+                        </div>
+                    </div>
+                    <div className="relative w-full h-[130px] content-center self-center block bg-[url('/images/agendamento.webp')] bg-no-repeat bg-center bg-cover sm:bg-auto">
+                        <div className="absolute inset-0 bg-[rgba(207,163,91,1)] opacity-60 z-0"></div>
+                        <div className="w-full max-w-3/10 relative flex flex-col items-center text-center justify-self-center z-10">
+                            <p>AGENDE UMA AVALIAÇÃO E DESCUBRA COMO A TERAPIA OCUPACIONAL PODE TRANSFORMAR SUA VIDA!</p>
+                            <Button className="">Agendar Avaliacao</Button>
+                        </div>                        
+                    </div>
+                </section>
+                <section className="w-full">
+                    <div className="flex flex-row md:flex-row justify-center">
+                        <div className="">
+                            <NossoAtendimento></NossoAtendimento>
                         </div>
                     </div>
                 </section>

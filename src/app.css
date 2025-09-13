@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
 @import "tailwindcss";
 
-
-
 @theme {
     --font-montserrat: "Montserrat", sans-serif;
     --color-degrade-cinza: hsl(200, 21%, 43%);
     --color-degrade-cinza-transparente: hsl(200, 21%, 43%, 0.7);
-    --color-dourado-base: rgb(206, 163, 91);
+    --color-dourado-base: rgb(207, 163, 91);
     --color-azul-base: rgb(0 ,136, 182);
     --color-botao-wpp: rgb(1, 180, 100);
+    --breakpoint-3xl: 1920px;
 }
 
 @source "./index.html";
