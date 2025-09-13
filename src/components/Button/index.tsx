@@ -9,7 +9,7 @@ import React from 'react';
 type ButtonProps = React.ComponentPropsWithoutRef<"button"> // dessa forma ele aceita todos os atributos nativos de um button
 
 const Button = ({children, onClick}: ButtonProps) => {  
-  return <button type="button" onClick={onClick} className="text-xl sm:text-2xl bg-botao-wpp hover:bg-[#099656] text-white font-bold py-1 px-4 rounded-4xl focus:outline-none focus:shadow-outline shadow-xl/20">{children}</button>
+  return <button type="button" onClick={onClick} className="text-button bg-botao-wpp hover:bg-[#099656] text-white font-bold py-1 px-4 rounded-4xl focus:outline-none focus:shadow-outline shadow-xl/20">{children}</button>
 ;
 };
 

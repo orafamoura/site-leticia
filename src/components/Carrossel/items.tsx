@@ -19,7 +19,7 @@ export default function CarrosselItem({carrosselTitulo, carrosselTexto, carrosse
                 <p className="text-white">{carrosselTexto}</p>
             </div>
             <div className="flex justify-center my-2.5">
-            <Button className="">Saiba Mais</Button>
+            <Button className="">SAIBA MAIS</Button>
             </div>
         </div>
 

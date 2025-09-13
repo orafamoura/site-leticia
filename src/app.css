@@ -12,6 +12,12 @@
     --breakpoint-xs: 425px;
 }
 
+@utility text-button {
+  font-size: var(--text-lg);
+
+  @variant sm { font-size: var(--text-xl); }
+}
+
 @utility text-titulo-cards {
   font-size: var(--text-xl);
 
