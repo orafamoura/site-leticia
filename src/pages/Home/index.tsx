@@ -18,8 +18,8 @@ export default function Home(){
                                 <img className="w-40 sm:w-40 md:w-45 lg:w-50 h-auto" src="/images/logoVertical.webp" alt=" Logo Vertical da empresa"/>
                                 <a className="md:border-2 h-0 md:h-70 border-white"></a>
                                 <div className="w-auto max-w-170 flex flex-col gap-3 text-white items-center md:items-start text-center md:text-start">
-                                    <h1 className="md:max-w-90 max-w-100 whitespace-normal text-base sm:text-lg md:text-xl lg:text-lg leading-5 sm:leading-6 font-bold">TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA</h1>
-                                    <p className="md:max-w-130 max-w-100 text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-5 sm:leading-8 font-bold text-dourado-base md:mb-4"> RECUPERE A QUALIDADE DE VIDA E AUTONOMIA</p>
+                                    <h1 className="md:max-w-90 max-w-100 whitespace-normal text-cards leading-4.5 sm:leading-5 md:leading-5 font-bold">TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA</h1>
+                                    <p className="md:max-w-130 max-w-100 text-medio leading-4.5 sm:leading-5 md:leading-8 font-bold text-dourado-base md:mb-4"> RECUPERE A QUALIDADE DE VIDA E AUTONOMIA</p>
                                     <p className="md:max-w-none max-w-100 text-xs sm:text-base lg:text-lg border rounded-4xl text-center border-dourado-base px-1">Especializada para Adultos e Idosos em Brasilia</p>
                                 </div>
                             </div>
@@ -30,8 +30,8 @@ export default function Home(){
                     <div className="w-full h-[30px] sm:h-[80px] bg-degrade-cinza [clip-path:polygon(0_0,100%_0,60%_80%,50%_100%,0_0%)]"></div>
                 </section>
                 <section className="w-full h-auto flex flex-col gap-5 items-center ">
-                    <h2 className="md:max-w-200 max-w-100 text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-5 sm:leading-8 font-bold text-azul-base md:mb-4 text-center">PARA QUEM É A TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA:</h2>
-                    <p className="md:max-w-200 max-w-100 whitespace-normal text-base sm:text-lg md:text-xl lg:text-lg leading-5 sm:leading-6 text-center">No Instituto Inclusio, atendemos <strong>adultos e idosos</strong> que querem manter a mente ativa, preservar a autonomia e viver com mais qualidade de vida por meio de Terapia Ocupacional e Reabilitação Neurocognitiva personalizada.</p>
+                    <h2 className="md:max-w-200 max-w-100 text-medio leading-4.5 sm:leading-5 md:leading-8 font-bold text-azul-base md:mb-4 text-center">PARA QUEM É A TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA:</h2>
+                    <p className="md:max-w-200 max-w-100 whitespace-normal text-cards leading-5 sm:leading-6 text-center">No Instituto Inclusio, atendemos <strong>adultos e idosos</strong> que querem manter a mente ativa, preservar a autonomia e viver com mais qualidade de vida por meio de Terapia Ocupacional e Reabilitação Neurocognitiva personalizada.</p>
                     <Carrossel></Carrossel>
                 </section>
                 <section className="w-full ">
@@ -43,8 +43,8 @@ export default function Home(){
                     </div>
                     <div className="relative w-full h-[130px] content-center self-center block bg-[url('/images/agendamento.webp')] bg-no-repeat bg-center bg-cover sm:bg-auto">
                         <div className="absolute inset-0 bg-[rgba(207,163,91,1)] opacity-60 z-0"></div>
-                        <div className="w-full max-w-3/10 relative flex flex-col items-center text-center justify-self-center z-10">
-                            <p>AGENDE UMA AVALIAÇÃO E DESCUBRA COMO A TERAPIA OCUPACIONAL PODE TRANSFORMAR SUA VIDA!</p>
+                        <div className="w-full text-white md:max-w-7/10 lg:max-w-6/10 xl:max-w-4/10 relative flex flex-col gap-3 items-center text-center justify-self-center z-10">
+                            <p className="text-xs xs:text-sm mx-8 xs:mx-11 font-bold">AGENDE UMA AVALIAÇÃO E DESCUBRA COMO A TERAPIA OCUPACIONAL PODE TRANSFORMAR SUA VIDA!</p>
                             <Button className="">Agendar Avaliacao</Button>
                         </div>                        
                     </div>
