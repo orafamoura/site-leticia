@@ -27,7 +27,7 @@ export default function Servicos() {
     ]
     
     return (
-        <div>
+        <div className="w-full h-auto min-h-[400px] min-w-[320px] flex flex-col lg:flex-row lg:justify-center items-center">
             {itemsServico.map(function(item){
                 return (
                     <ItemsServico servicoTexto={item.servicoTexto} servicoTitulo={item.servicoTitulo}></ItemsServico>

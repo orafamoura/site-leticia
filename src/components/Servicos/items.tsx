@@ -5,9 +5,12 @@ interface servicoProps {
 
 export default function ItemsServico({servicoTitulo, servicoTexto}: servicoProps) {
     return (
-        <div className="m-4 text-white">
-            <h3>{servicoTitulo}</h3>
-            <p>{servicoTexto}</p>
+        <div className=" max-w-[600px] min-h-[320px] lg:bg-[#d9d9d920] m-4 sm:text-center">
+            <div className="m-4 text-white">
+                <h3 className="md:px-8 lg:px-9 font-bold my-2 text-xl sm:text-2xl leading-5">{servicoTitulo}</h3>
+                <p>{servicoTexto}</p>
+            </div>
         </div>
+
     )
 }
