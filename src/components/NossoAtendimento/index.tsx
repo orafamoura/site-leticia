@@ -21,7 +21,8 @@ export default function NossoAtendimento() {
     ]
 
     return (
-        <div className="flex flex-col lg:flex-row gap-5">
+        <div className="relative flex flex-col lg:flex-row gap-5">
+            <div className="absolute right-[50%] lg:right-0 top-[-2%] lg:top-[50%] w-[2px] h-full lg:w-full lg:h-[2px] bg-azul-base"></div>
             {nossoAtendimentoItems.map(function(item){
                 return (
                     <NossoAtendimentoItem 

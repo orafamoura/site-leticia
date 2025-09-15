@@ -23,7 +23,7 @@ export default function Home(){
                                     <p className="md:max-w-none max-w-100 text-xs sm:text-base lg:text-lg border rounded-4xl text-center border-dourado-base px-2">Especializada para Adultos e Idosos em Brasilia</p>
                                 </div>
                             </div>
-                            <Button className="">AGENDAR AVALIACAO</Button>
+                            <Button className="bg-botao-wpp hover:bg-[#099656] text-white">AGENDAR AVALIACAO</Button>
                         </div>
                         <div className="w-full h-50 sm:h-20 bg-degrade-cinza"></div>
                     </div>
@@ -45,7 +45,7 @@ export default function Home(){
                         <div className="absolute inset-0 bg-[rgba(207,163,91,1)] opacity-60 z-0"></div>
                         <div className="w-full text-white md:max-w-7/10 lg:max-w-6/10 xl:max-w-4/10 relative flex flex-col gap-3 items-center text-center justify-self-center z-10">
                             <p className="text-cards mx-8 xs:mx-11 font-bold">AGENDE UMA AVALIAÇÃO E DESCUBRA COMO A TERAPIA OCUPACIONAL PODE TRANSFORMAR SUA VIDA!</p>
-                            <Button className="">AGENDAR AVALIACAO</Button>
+                            <Button className="bg-botao-wpp hover:bg-[#099656] text-white">AGENDAR AVALIACAO</Button>
                         </div>                        
                     </div>
                 </section>
@@ -53,8 +53,10 @@ export default function Home(){
                     <div className="flex flex-col items-center gap-5">
                         <p className="max-w-[450px] text-medio font-bold leading-4.5 sm:leading-5 md:leading-8 text-center text-azul-base">COMO FUNCIONA NOSSO ATENDIMENTO</p>
                         <NossoAtendimento></NossoAtendimento>
-                        <Button>QUERO SABER MAIS</Button>
+                        <Button className="bg-dourado-base text-white hover:bg-[#bb8e47]">QUERO SABER MAIS</Button>
                     </div>
+                </section>
+                <section>
                 </section>
             </div>
         </div>
