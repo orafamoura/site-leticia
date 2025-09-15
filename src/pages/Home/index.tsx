@@ -2,6 +2,7 @@ import Button from "../../components/Button";
 import Carrossel from "../../components/Carrossel";
 import Header from "../../components/Header";
 import NossoAtendimento from "../../components/NossoAtendimento";
+import QuemSomos from "../../components/QuemSomos";
 import Servicos from "../../components/Servicos";
 
 export default function Home(){
@@ -57,6 +58,7 @@ export default function Home(){
                     </div>
                 </section>
                 <section>
+                    <QuemSomos></QuemSomos>
                 </section>
             </div>
         </div>
