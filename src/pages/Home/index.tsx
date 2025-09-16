@@ -57,7 +57,7 @@ export default function Home(){
                         <Button className="bg-dourado-base text-white hover:bg-[#bb8e47]">QUERO SABER MAIS</Button>
                     </div>
                 </section>
-                <section>
+                <section className="w-full px-6 bg-azul-base">
                     <QuemSomos></QuemSomos>
                 </section>
             </div>
