@@ -2,6 +2,7 @@ import Button from "../../components/Button";
 import Carrossel from "../../components/Carrossel";
 import Header from "../../components/Header";
 import NossoAtendimento from "../../components/NossoAtendimento";
+import NossoEspaco from "../../components/NossoEspaco";
 import QuemSomos from "../../components/QuemSomos";
 import Servicos from "../../components/Servicos";
 
@@ -59,6 +60,13 @@ export default function Home(){
                 </section>
                 <section className="w-full bg-azul-base">
                     <QuemSomos></QuemSomos>
+                </section>
+                <section className=" w-full">
+                    <div className="relative">
+                        <NossoEspaco>
+                        </NossoEspaco>
+                        <div className='absolute inset-0 z-5 bg-gradient-to-t from-white from-0% via-white via-0% to-transparent to-35%'></div>
+                    </div>
                 </section>
             </div>
         </div>
