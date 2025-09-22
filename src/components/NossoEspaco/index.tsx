@@ -19,18 +19,18 @@ export default function NossoEspaco(){
                             }}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
-                className="">
-                <SwiperSlide className="container">
-                    <img className="object-cover" src="/nossoEspacoFotos/fotoG1.webp" alt="" />
+                className="@container">
+                <SwiperSlide className="">
+                    <img className="" src="/nossoEspacoFotos/fotoG1.webp" alt="" />
                 </SwiperSlide>
-                <SwiperSlide className="container sm:!flex flex-col items-center">
+                <SwiperSlide className=" sm:!flex flex-col items-center">
                     <img src="/nossoEspacoFotos/fotoP1.webp" alt="" />
                     <img src="/nossoEspacoFotos/fotoP2.webp" alt="" />
                 </SwiperSlide>
-                <SwiperSlide className=" container">
+                <SwiperSlide className=" ">
                     <img src="/nossoEspacoFotos/fotoG2.webp" alt="" />
                 </SwiperSlide>
-                <SwiperSlide className=" container sm:!flex flex-col items-center">
+                <SwiperSlide className="  sm:!flex flex-col items-center">
                     <img src="/nossoEspacoFotos/fotoP3.webp" alt="" />
                     <img src="/nossoEspacoFotos/fotoP4.webp" alt="" />            
                 </SwiperSlide>

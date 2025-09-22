@@ -61,7 +61,7 @@ export default function Home(){
                 <section className="w-full bg-azul-base">
                     <QuemSomos></QuemSomos>
                 </section>
-                <section className=" w-full">
+                <section className="w-full h-[350px]">
                     <div className="relative">
                         <NossoEspaco>
                         </NossoEspaco>
