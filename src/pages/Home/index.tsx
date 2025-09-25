@@ -61,12 +61,9 @@ export default function Home(){
                 <section className="w-full bg-azul-base">
                     <QuemSomos></QuemSomos>
                 </section>
-                <section className="w-full h-[350px]">
-                    <div className="relative">
-                        <NossoEspaco>
-                        </NossoEspaco>
-                        <div className='absolute inset-0 z-5 bg-gradient-to-t from-white from-0% via-white via-0% to-transparent to-35%'></div>
-                    </div>
+                <section className="w-full">
+                    <NossoEspaco>
+                    </NossoEspaco>
                 </section>
             </div>
         </div>
