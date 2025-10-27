@@ -7,29 +7,31 @@ import 'swiper/modules'
 export default function Carrossel() {
 
     const itemsDoCarrossel = [
-        {"carrosselTexto": "Mantenha seu cérebro ativo e sua autonomia preservada com atividades" + 
-        "e exercícios personalizados que estimulam a mente, previnem perdas cognitivas e " +
-        "promovem bem-estar e qualidade de vida ao longo do envelhecimento.",
-        "carrosselTitulo":"Manter o Cérebro Ativo",
-        "carrosselImg":"carrosselImagens/exemplo.png"
+        {
+        id: 1,
+        carrosselTitulo:"Pessoas com dificuldades cognitivas",
+        carrosselTexto: "Atendemos pessoas que apresentam dificuldades no desempenho "+
+        " das atividades do cotidiano em decorrência de problemas na memória, atenção, "+
+        "concentração, funções executivas e outras habilidades essenciais para a autonomia",
+        carrosselImg:"carrosselImagens/exemplo.png",
+        carrosselTags:["Doença de Parkinson"]
         },
-        {"carrosselTexto": "Mantenha seu cérebro ativo e sua autonomia preservada com atividades" + 
-        "e exercícios personalizados que estimulam a mente, previnem perdas cognitivas e " +
-        "promovem bem-estar e qualidade de vida ao longo do envelhecimento.",
-        "carrosselTitulo":"Manter o Cérebro ",
-        "carrosselImg":"carrosselImagens/exemplo.png"
+        {
+        id: 2,
+        carrosselTitulo:"Pessoas com dificuldades neurológicas",
+        carrosselTexto: "Pessoa que tiveram AVE (derrame), Doença de Parkinson ou alguma "+
+        " lesão cerebral, que busquem apoio especializado em reabilitação neurológica para maior"+
+        " independência e participação nas atividades significativas e da rotina.",
+        carrosselImg:"carrosselImagens/exemplo.png",
+        carrosselTags:["Doença de Parkinson"]
         },
-        {"carrosselTexto": "Mantenha seu cérebro ativo e sua autonomia preservada com atividades" + 
-        "e exercícios personalizados que estimulam a mente, previnem perdas cognitivas e " +
-        "promovem bem-estar e qualidade de vida ao longo do envelhecimento.",
-        "carrosselTitulo":"Manter o  Ativo",
-        "carrosselImg":"carrosselImagens/exemplo.png"
-        },
-        {"carrosselTexto": "Mantenha seu cérebro ativo e sua autonomia preservada com atividades" + 
-        "e exercícios personalizados que estimulam a mente, previnem perdas cognitivas e " +
-        "promovem bem-estar e qualidade de vida ao longo do envelhecimento.",
-        "carrosselTitulo":"Manter o  Ativo",
-        "carrosselImg":"carrosselImagens/exemplo.png"
+        {
+        id: 3,       
+        carrosselTitulo:"Idosos querem manter o cérebro ativo",
+        carrosselTexto: "Idosos que desejam manter o cérebro ativo preservando a independência"+
+        " e autonomia, por meio de atividades, exercícios cognitivos e ocupacionais específicos.",
+        carrosselImg:"carrosselImagens/exemplo.png",
+        carrosselTags:["Doença de Parkinson"]
         }
     ]
 
@@ -42,10 +44,10 @@ export default function Carrossel() {
         slidesPerView={1}
         autoplay={{delay: 3000}}
         breakpoints={{
-            425:  { spaceBetween: 15, slidesPerView: 1.4, autoplay:{delay: 3000 }},
+            425:  { spaceBetween: 15, slidesPerView: 1.5, autoplay:{delay: 3000 }},
             640:  { spaceBetween: 20, slidesPerView: 2, autoplay:{delay: 3000 }},
-            1024: { spaceBetween: 0, slidesPerView: 2.4, autoplay:{delay: 3000 }},
-            1280: { spaceBetween: 0, initialSlide: 1, slidesPerView: 3, autoplay: false, enabled: false},
+            1024: { spaceBetween: 0, slidesPerView: 3, autoplay:{delay: 3000 }},
+            1240: { spaceBetween: 0, initialSlide: 1, slidesPerView: 3, autoplay: false, enabled: false},
         }}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
@@ -53,7 +55,7 @@ export default function Carrossel() {
             {itemsDoCarrossel.map(function (item) {
                 return (
                     <SwiperSlide className='justify-items-center flex'>
-                        <CarrosselItem carrosselImg={item.carrosselImg} carrosselTexto={item.carrosselTexto} carrosselTitulo={item.carrosselTitulo}></CarrosselItem>
+                        <CarrosselItem carrosselImg={item.carrosselImg} carrosselTexto={item.carrosselTexto} carrosselTitulo={item.carrosselTitulo} carrosselTags={item.carrosselTags}></CarrosselItem>
                     </SwiperSlide>
                 )
             })}

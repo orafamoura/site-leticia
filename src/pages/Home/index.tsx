@@ -12,16 +12,16 @@ export default function Home(){
             <Header></Header>
             <div className=" flex flex-col gap-6 max-w-[1920px] 3xl:justify-self-center">
                 <section className="w-full h-lvh min-h-svh max-h-lvh">
-                    <div className="w-auto relative h-auto overflow-hidden">
-                        <img className="w-full sm:border-b-[0px] h-lvh max-h-[600px] object-cover object-top sm:object-top" src="/images/fotoPrincipal.webp" alt="foto" />
-                        <div className=" absolute inset-0 bottom-0 bg-gradient-to-t from-degrade-cinza from-30% sm:from-10% via-degrade-cinza-transparente via-45% sm:via-35% to-transparent to-55%"></div>
-                        <div className="flex flex-col absolute inset-x-0 bottom-10 gap-5 items-center mx-4 md:mx-0">
+                    <div className="w-auto relative h-full overflow-hidden">
+                        <img className="w-full h-lvh max-h-[480px] sm:max-h-[650px] object-cover object-top sm:object-top" src="/images/fotoPrincipal.webp" alt="foto" />
+                        <div className=" absolute inset-0 bottom-0 bg-gradient-to-t from-degrade-cinza from-50% sm:from-30% via-degrade-cinza-transparente via-60% sm:via-45% to-transparent to-70% sm:to-65%"></div>
+                        <div className="flex flex-col pb-10 absolute inset-x-0 bottom-10 gap-5 items-center mx-4 md:mx-0">
                             <div className="w-full h-auto flex flex-col md:flex-row justify-center items-center md:gap-9 gap-1">
-                                <img className="w-40 sm:w-35 md:w-40 lg:w-45 h-auto" src="/images/logoVertical.webp" alt=" Logo Vertical da empresa"/>
-                                <a className="md:border-2 h-0 md:h-50 border-white"></a>
+                                <img className="w-40 md:w-45 h-auto" src="/images/LogoVerticalColorida.svg" alt=" Logo Vertical da empresa"/>
+                                <a className="md:border-1 h-0 md:h-50 border-white"></a>
                                 <div className="w-auto max-w-170 flex flex-col gap-3 text-white items-center md:items-start text-center md:text-start ">
-                                    <h1 className="md:max-w-90 max-w-100 whitespace-normal text-cards leading-4.5 sm:leading-5 md:leading-5 font-bold">TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA</h1>
-                                    <p className="md:max-w-130 max-w-100 text-medio leading-4.5 sm:leading-5 md:leading-8 font-bold text-dourado-base md:mb-4"> RECUPERE A QUALIDADE DE VIDA E AUTONOMIA</p>
+                                    <h1 className="md:max-w-sm max-w-100 whitespace-normal text-cards leading-4.5 sm:leading-5 md:leading-5 font-bold">TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA</h1>
+                                    <p className="md:max-w-lg max-w-100 text-medio leading-4.5 sm:leading-6 md:leading-7 font-bold text-dourado-base md:mb-4"> ESTIMULE A SUA AUTONOMIA, INDEPENDENCIA E QUALIDADE DE VIDA</p>
                                     <p className="md:max-w-none max-w-100 text-xs sm:text-base lg:text-lg border rounded-4xl text-center border-dourado-base px-2">Especializada para Adultos e Idosos em Brasilia</p>
                                 </div>
                             </div>
@@ -43,8 +43,8 @@ export default function Home(){
                     </div>
                 </section>
                 <section className="w-full h-auto flex flex-col gap-5 items-center ">
-                    <h2 className="md:max-w-200 max-w-100 text-medio leading-4.5 sm:leading-5 md:leading-8 font-bold text-azul-base md:mb-4 text-center">PARA QUEM É A TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA:</h2>
-                    <p className="md:max-w-200 max-w-100 whitespace-normal text-cards leading-5 sm:leading-6 text-center">No Instituto Inclusio, atendemos <strong>adultos e idosos</strong> que querem manter a mente ativa, preservar a autonomia e viver com mais qualidade de vida por meio de Terapia Ocupacional e Reabilitação Neurocognitiva personalizada.</p>
+                    <h2 className="md:max-w-2xl max-w-lg text-medio leading-4.5 sm:leading-5 md:leading-8 font-bold text-azul-base md:mb-4 text-center">PARA QUEM É A TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA:</h2>
+                    <p className="md:max-w-4xl max-w-lg whitespace-normal text-cards leading-5 sm:leading-6 text-center">População <strong>Adulta e idosa</strong> que enfrentam dificuldades cognitivas e funcionais, decorrentes de condições neurológicas como Doença de Alzheimer, outras demências, Acidente Vascular Encefálico (AVE) e lesões cerebrais</p>
                     <Carrossel></Carrossel>
                 </section>
                 <section className="w-full ">
@@ -73,8 +73,7 @@ export default function Home(){
                     <QuemSomos></QuemSomos>
                 </section>
                 <section className="w-full">
-                    <NossoEspaco>
-                    </NossoEspaco>
+                    <NossoEspaco></NossoEspaco>
                 </section>
             </div>
         </div>
