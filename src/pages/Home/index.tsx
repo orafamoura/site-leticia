@@ -1,5 +1,6 @@
 import Button from "../../components/Button";
 import Carrossel from "../../components/Carrossel";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import NossoAtendimento from "../../components/NossoAtendimento";
 import NossoEspaco from "../../components/NossoEspaco";
@@ -76,6 +77,7 @@ export default function Home(){
                     <NossoEspaco></NossoEspaco>
                 </section>
             </div>
+            <Footer></Footer>
         </div>
     )
 }
