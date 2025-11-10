@@ -9,10 +9,10 @@ import Servicos from "../../components/Servicos";
 
 export default function Home(){
     return (
-        <div className="font-montserrat">
+        <div className="font-montserrat max-w-[1920px] 3xl:justify-self-center">
             <Header></Header>
-            <div className=" flex flex-col gap-6 max-w-[1920px] 3xl:justify-self-center">
-                <section className="w-full h-lvh min-h-svh max-h-lvh">
+            <div className=" flex flex-col gap-6 ">
+                <section className="w-full h-[calc(100lvh-80px)] min-h-[calc(100svh-80px)] max-h-[calc(100lvh-80px)]">
                     <div className="w-auto relative h-full overflow-hidden">
                         <img className="w-full h-lvh max-h-[480px] sm:max-h-[650px] object-cover object-top sm:object-top" src="/images/fotoPrincipal.webp" alt="foto" />
                         <div className=" absolute inset-0 bottom-0 bg-gradient-to-t from-degrade-cinza from-50% sm:from-30% via-degrade-cinza-transparente via-60% sm:via-45% to-transparent to-70% sm:to-65%"></div>
@@ -50,13 +50,13 @@ export default function Home(){
                 </section>
                 <section className="w-full ">
                     <div className=" h-[70%] flex flex-col bg-degrade-cinza">
-                        <img className="w-full max-w-[380px] h-[130px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/images/nossosServicos.webp)]"></img>
+                        <img className="w-full max-w-[380px] h-[130px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/images/nossosServicos.png)]"></img>
                         <div>
                             <Servicos></Servicos>
                         </div>
                     </div>
                     <div className="relative w-full h-[170px] content-center self-center block bg-[url('/images/agendamento.webp')] bg-no-repeat bg-center bg-cover sm:bg-auto">
-                        <div className="absolute inset-0 bg-[rgba(207,163,91,1)] opacity-60 z-0"></div>
+                        <div className="absolute inset-0 bg-[rgba(207,163,91,1)] opacity-40 z-0"></div>
                         <div className="w-full text-white md:max-w-7/10 lg:max-w-6/10 xl:max-w-4/10 relative flex flex-col gap-3 items-center text-center justify-self-center z-10">
                             <p className="text-cards mx-8 xs:mx-11 font-bold">AGENDE UMA AVALIAÇÃO E DESCUBRA COMO A TERAPIA OCUPACIONAL PODE TRANSFORMAR SUA VIDA!</p>
                             <Button className="bg-botao-wpp hover:bg-[#099656] text-white">AGENDAR AVALIACAO</Button>
@@ -65,7 +65,7 @@ export default function Home(){
                 </section>
                 <section className="w-full">
                     <div className="flex flex-col items-center gap-5">
-                        <p className="max-w-[450px] text-medio font-bold leading-4.5 sm:leading-5 md:leading-8 text-center text-azul-base">COMO FUNCIONA NOSSO ATENDIMENTO</p>
+                        <p className="max-w-[450px] text-medio font-bold leading-4.5 sm:leading-5 md:leading-8 text-center text-azul-base"> VEJA COMO FUNCIONA NOSSO ATENDIMENTO</p>
                         <NossoAtendimento></NossoAtendimento>
                         <Button className="bg-dourado-base text-white hover:bg-[#bb8e47]">QUERO SABER MAIS</Button>
                     </div>

@@ -4,25 +4,23 @@ export default function Servicos() {
     
     const itemsServico = [
         {
-            "servicoTitulo":"Atendimento em grupo",
+            "servicoTitulo":"Reabilitação Neurológica Ocupacional",
             "servicoTexto":"Acompanhamento feito por profissional especializado para avaliar e "+
             "melhorar as funções neurológicas e o desempenho no dia a dia, com um plano de tratamento "+
             "personalizado utilizando testes e instrumentos padronizados para avaliar o aspecto neurológico, "+
             "funcionalidade e desempenho ocupacional, com Plano Terapêutico Singular (PTS) e intervenções personalizadas."
         },
         {
-            "servicoTitulo":"Atendimento em grupo",
-            "servicoTexto":"Acompanhamento feito por profissional especializado para avaliar e "+
-            "melhorar as funções neurológicas e o desempenho no dia a dia, com um plano de tratamento "+
-            "personalizado utilizando testes e instrumentos padronizados para avaliar o aspecto neurológico, "+
-            "funcionalidade e desempenho ocupacional, com Plano Terapêutico Singular (PTS) e intervenções personalizadas."
+            "servicoTitulo":"Reabilitação Cognitiva Ocupacional",
+            "servicoTexto":"Atendimento para trabalhar memória, atenção e percepção, usando testes e atividades específicas,"+
+            " com um plano de tratamento adaptado para cada pessoa com uso de instrumentos para avaliar memória, atenção, percepção "+
+            " e desempenho ocupacional, com elaboração de PTS e intervenções personalizadas para maior efetividade."
         },
         {
             "servicoTitulo":"Atendimento em grupo",
-            "servicoTexto":"Acompanhamento feito por profissional especializado para avaliar e "+
-            "melhorar as funções neurológicas e o desempenho no dia a dia, com um plano de tratamento "+
-            "personalizado utilizando testes e instrumentos padronizados para avaliar o aspecto neurológico, "+
-            "funcionalidade e desempenho ocupacional, com Plano Terapêutico Singular (PTS) e intervenções personalizadas."
+            "servicoTexto":"Atendimento para trabalhar memória, atenção e percepção, usando testes e atividades específicas, com um "+
+            " plano de tratamento adaptado para cada pessoa com uso de instrumentos para avaliar memória, atenção, percepção e desempenho"+
+            " ocupacional, com elaboração de PTS e intervenções personalizadas para maior efetividade."
         },
     ]
     
