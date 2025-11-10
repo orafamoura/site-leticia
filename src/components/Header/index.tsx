@@ -19,14 +19,14 @@ export default function Header() {
                 <div className="w-full flex sm:justify-center items-center whitespace-nowrap [&_p]:max-w-none animate-[marquee_20s_linear_infinite] sm:[animation-play-state:paused] sm:relative">
                     <ul className="items-center sm:absolute sm:justify-center">
                         <li className="flex items-center">
-                            <p className="text-xs gap-1 flex items-center px-8"><img className="w-4" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
-                            <p className="text-xs px-8">Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
+                            <p className="text-md gap-1 flex items-center px-8"><img className="w-7" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
+                            <p className="text-md gap-1 flex items-center px-8"><img className="w-5" src="../../../public/icons/vector.svg"/>Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
                         </li>
                     </ul>
                     <ul className="sm:opacity-0">
                         <li className="flex items-center">
-                            <p className="text-xs gap-1 flex items-center px-8"><img className="w-4" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
-                            <p className="text-xs px-8">Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
+                            <p className="text-md gap-1 flex items-center px-8"><img className="w-7" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
+                            <p className="text-md gap-1 flex items-center px-8"><img className="w-5" src="../../../public/icons/vector.svg"/>Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
                         </li>
                     </ul>
                 </div>
@@ -35,16 +35,16 @@ export default function Header() {
             <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between py-2 px-4 lg:px-8">
                 <div className="flex lg:flex-1">
                 <a href="#" className="-m-1.5 p-1.5">
-                    <span className="sr-only">Your Company</span>
+                    <span className="sr-only">Instituto Inclusio</span>
                     <img
                     alt=""
                     src="/public/images/HorizontalColoridaSFundo.webp"
-                    className="h-10 w-auto hidden"
+                    className="h-13 w-auto hidden"
                     />
                     <img
                     alt=""
                     src="/public/images/HorizontalColoridaSFundo.webp"
-                    className="h-10 w-auto not-hidden"
+                    className="h-13 w-auto not-hidden"
                     />
                 </a>
                 </div>
@@ -59,23 +59,20 @@ export default function Header() {
                 </button>
                 </div>
                 <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-                <a href="#" className="text-sm/6 font-semibold text-black ">
-                    Quem somos
+                <a href="#" className="text-md/6 font-bold text-degrade-cinza ">
+                    QUEM SOMOS
                 </a>
-                <a href="#" className="text-sm/6 font-semibold text-black ">
-                    Publico Alvo
+                <a href="#" className="text-md/6 font-bold text-degrade-cinza ">
+                    NOSSOS PACIENTES
                 </a>
-                <a href="#" className="text-sm/6 font-semibold text-black ">
-                    Servico
+                <a href="#" className="text-md/6 font-bold text-degrade-cinza ">
+                    COMO FUNCIONA
                 </a>
-                <a href="#" className="text-sm/6 font-semibold text-black ">
-                    Como funciona
+                <a href="#" className="text-md/6 font-bold text-degrade-cinza ">
+                    NOSSOS SERVIÇOS
                 </a>
-                <a href="#" className="text-sm/6 font-semibold text-black ">
-                    Duvidas
-                </a>
-                <a href="#" className="text-sm/6 font-semibold text-black ">
-                    Localizacao
+                <a href="#" className="text-md/6 font-bold text-degrade-cinza ">
+                    LOCALIZAÇÃO
                 </a>
                 </PopoverGroup>
             </nav>
@@ -110,7 +107,7 @@ export default function Header() {
                     <div className="space-y-2 py-6">
                         <a
                         href="#"
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-black hover:bg-gray-50 dark:hover:bg-white/5"
+                        className="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold text-black hover:bg-gray-50 dark:hover:bg-white/5"
                         >
                         Quem somos
                         </a>
