@@ -19,17 +19,17 @@
 }
 
 @utility text-titulo-cards {
-  font-size: var(--text-xl);
+  font-size: var(--text-lg);
 
-  @variant sm { font-size: var(--text-xl); }
+  @variant sm { font-size: var(--text-lg); }
 }
 
 @utility text-cards {
   font-size: var(--text-base);
 
-  @variant sm { font-size: var(--text-md); }
-  @variant md { font-size: var(--text-lg); }
-  @variant lg { font-size: var(--text-xl); }
+  @variant sm { font-size: var(--text-sm); }
+  @variant md { font-size: var(--text-md); }
+  @variant lg { font-size: var(--text-md); }
 }
 
 @utility text-medio {

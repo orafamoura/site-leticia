@@ -49,7 +49,7 @@ export default function Home(){
                         </div>
                     </div>
                 </section>
-                <section className="w-full h-auto flex flex-col gap-5 items-center ">
+                <section className="w-full h-auto flex flex-col gap-5 items-center">
                     <h2 className="md:max-w-2xl max-w-lg text-medio leading-4.5 sm:leading-5 md:leading-8 font-bold text-azul-base md:mb-4 text-center">PARA QUEM É A TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA:</h2>
                     <p className="md:max-w-4xl max-w-lg whitespace-normal text-cards leading-5 sm:leading-6 text-center">População <strong>Adulta e idosa</strong> que enfrentam dificuldades cognitivas e funcionais, decorrentes de condições neurológicas como Doença de Alzheimer, outras demências, Acidente Vascular Encefálico (AVE) e lesões cerebrais</p>
                     <Carrossel></Carrossel>
@@ -57,7 +57,7 @@ export default function Home(){
                 <section className="w-full ">
                     <div className=" h-[70%] flex flex-col bg-degrade-cinza">
                         <img className="w-full max-w-[380px] h-[130px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/images/nossosServicos.png)]"></img>
-                        <div>
+                        <div className="">
                             <Servicos></Servicos>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ export default function Home(){
                     <QuemSomos></QuemSomos>
                 </section>
                 <section className="w-full">
-                    <NossoEspaco></NossoEspaco>
+                    {/*<NossoEspaco></NossoEspaco>*/}
                 </section>
             </div>
             <Footer></Footer>
