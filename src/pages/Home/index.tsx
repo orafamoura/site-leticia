@@ -3,6 +3,7 @@ import Carrossel from "../../components/Carrossel";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import NossoAtendimento from "../../components/NossoAtendimento";
+import NossoDiferencial from "../../components/NossoDiferencial";
 import NossoEspaco from "../../components/NossoEspaco";
 import QuemSomos from "../../components/QuemSomos";
 import Servicos from "../../components/Servicos";
@@ -68,6 +69,9 @@ export default function Home(){
                             <Button className="bg-botao-wpp hover:bg-[#099656] text-white">AGENDAR AVALIACAO</Button>
                         </div>                        
                     </div>
+                </section>
+                <section>
+                    <NossoDiferencial></NossoDiferencial>
                 </section>
                 <section className="w-full">
                     <div className="flex flex-col items-center gap-5">
