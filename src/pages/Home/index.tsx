@@ -62,6 +62,9 @@ export default function Home(){
                             <Servicos></Servicos>
                         </div>
                     </div>
+                </section>
+                <section>
+                    <NossoDiferencial></NossoDiferencial>
                     <div className="relative w-full h-[170px] content-center self-center block bg-[url('/images/agendamento.webp')] bg-no-repeat bg-center bg-cover sm:bg-auto">
                         <div className="absolute inset-0 bg-[rgba(207,163,91,1)] opacity-40 z-0"></div>
                         <div className="w-full text-white md:max-w-7/10 lg:max-w-6/10 xl:max-w-4/10 relative flex flex-col gap-3 items-center text-center justify-self-center z-10">
@@ -69,9 +72,6 @@ export default function Home(){
                             <Button className="bg-botao-wpp hover:bg-[#099656] text-white">AGENDAR AVALIACAO</Button>
                         </div>                        
                     </div>
-                </section>
-                <section>
-                    <NossoDiferencial></NossoDiferencial>
                 </section>
                 <section className="w-full">
                     <div className="flex flex-col items-center gap-5">
