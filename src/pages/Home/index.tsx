@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import NossoAtendimento from "../../components/NossoAtendimento";
 import NossoDiferencial from "../../components/NossoDiferencial";
 import NossoEspaco from "../../components/NossoEspaco";
+import PerguntasFrequentes from "../../components/PerguntasFrequentes";
 import QuemSomos from "../../components/QuemSomos";
 import Servicos from "../../components/Servicos";
 
@@ -82,6 +83,9 @@ export default function Home(){
                 </section>
                 <section className="w-full bg-azul-base">
                     <QuemSomos></QuemSomos>
+                </section>
+                <section>
+                    <PerguntasFrequentes></PerguntasFrequentes>
                 </section>
                 <section className="w-full">
                     {/*<NossoEspaco></NossoEspaco>*/}
