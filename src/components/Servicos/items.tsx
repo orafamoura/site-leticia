@@ -12,7 +12,7 @@ export default function ItemsServico({servicoTitulo, servicoTexto, servicoImg}: 
             </div>
             <div className="pt-8">
                 <div className="m-4 text-white text-left">
-                    <h3 className="my-2 mb-5 font-bold  text-titulo-cards leading-5">
+                    <h3 className="my-2 mb-5 font-bold text-titulo-cards leading-5">
                         {servicoTitulo.map(titulo => <p className="">{titulo}</p>)}
                     </h3>
                     <p className="text-normal text-wrap">{servicoTexto}</p>
