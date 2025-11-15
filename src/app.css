@@ -24,15 +24,15 @@
   @variant sm { font-size: var(--text-lg); }
 }
 
-@utility text-cards {
+@utility text-normal {
   font-size: var(--text-base);
 
   @variant sm { font-size: var(--text-sm); }
-  @variant md { font-size: var(--text-md); }
-  @variant lg { font-size: var(--text-md); }
+  @variant md { font-size: var(--text-sm); }
+  @variant lg { font-size: var(--text-sm); }
 }
 
-@utility text-medio {
+@utility text-destaque {
   font-size: var(--text-xl);     
 
   @variant sm { font-size: var(--text-xl); }

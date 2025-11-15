@@ -13,20 +13,20 @@ export default function Home(){
     return (
         <div className="font-montserrat max-w-[1920px] 3xl:justify-self-center" id="section-principal">
             <Header></Header>
-            <div className=" flex flex-col gap-6 ">
+            <div className=" flex flex-col gap-6">
                 <section className="w-full h-[calc(100lvh-100px)] min-h-[calc(100svh-100px)] max-h-[calc(100lvh-100px)]">
                     <div className="w-auto relative h-full overflow-hidden">
                         <img className="w-full h-lvh max-h-[480px] sm:max-h-[650px] object-cover object-top sm:object-top" src="/images/fotoPrincipal.webp" alt="foto" />
                         <div className=" absolute inset-0 bottom-0 bg-gradient-to-t from-degrade-cinza from-50% sm:from-30% via-degrade-cinza-transparente via-60% sm:via-45% to-transparent to-70% sm:to-65%"></div>
                         <div className="flex flex-col pb-10 absolute inset-x-0 bottom-10 gap-5 items-center mx-4 md:mx-0">
                             <div className="w-full h-auto flex flex-col md:flex-row justify-center items-center md:gap-9 gap-1">
-                                <div className="rounded-full bg-white p-6">
-                                    <img className="size-45 md:size-50 h-auto" src="/images/LogoVerticalColorida.svg" alt=" Logo Vertical da empresa"/>
+                                <div className="rounded-full bg-white p-4">
+                                    <img className="size-35 md:size-40 h-auto pb-3" src="/images/LogoVerticalColorida.svg" alt=" Logo Vertical da empresa"/>
                                 </div>
-                                <div className="w-auto max-w-170 flex flex-col gap-2 text-white items-center md:items-start text-center md:text-start ">
-                                    <h1 className="md:max-w-2xl max-w-100 whitespace-normal text-cards leading-4.5 sm:leading-5 md:leading-5 font-bold">TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA</h1>
-                                    <p className="md:max-w-2xl max-w-100 text-medio leading-4.5 sm:leading-6 md:leading-7 font-bold text-dourado-base md:mb-2"> ESTIMULE A SUA AUTONOMIA, INDEPENDENCIA E QUALIDADE DE VIDA</p>
-                                    <p className="md:max-w-none max-w-100 text-xs sm:text-base lg:text-lg border rounded-4xl text-center border-dourado-base px-2">Especializada para Adultos e Idosos em Brasilia</p>
+                                <div className="w-auto max-w-170 flex flex-col gap-1 text-white items-center md:items-start text-center md:text-start ">
+                                    <h1 className="md:max-w-2xl max-w-100 whitespace-normal text-normal leading-4.5 sm:leading-5 md:leading-5 font-bold">TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA</h1>
+                                    <p className="md:max-w-2xl max-w-100 text-destaque leading-4.5 sm:leading-6 md:leading-7 font-extrabold text-dourado-base md:mb-2">ESTIMULE A SUA AUTONOMIA, INDEPENDÊNCIA E QUALIDADE DE VIDA</p>
+                                    <p className="md:max-w-none max-w-100 text-xs text-normal border rounded-4xl text-center border-dourado-base px-2">Especializada para Adultos e Idosos em Brasilia</p>
                                 </div>
                             </div>
                             <Button className="bg-botao-wpp hover:bg-[#099656] text-white">AGENDAR AVALIACAO</Button>                            
