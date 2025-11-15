@@ -4,7 +4,6 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import NossoAtendimento from "../../components/NossoAtendimento";
 import NossoDiferencial from "../../components/NossoDiferencial";
-import NossoEspaco from "../../components/NossoEspaco";
 import PerguntasFrequentes from "../../components/PerguntasFrequentes";
 import QuemSomos from "../../components/QuemSomos";
 import Servicos from "../../components/Servicos";
@@ -57,8 +56,8 @@ export default function Home(){
                     <Carrossel></Carrossel>
                 </section>
                 <section className="w-full ">
-                    <div className=" h-[70%] flex flex-col bg-degrade-cinza">
-                        <img className="w-full max-w-[380px] h-[130px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/images/nossosServicos.png)]"></img>
+                    <div className=" h-[70%] flex flex-col items-center bg-degrade-cinza">
+                        <img className="w-full max-w-[390px] h-[140px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/images/nossosServicos.png)]"></img>
                         <div className="">
                             <Servicos></Servicos>
                         </div>
