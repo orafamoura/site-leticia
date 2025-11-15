@@ -14,7 +14,7 @@ export default function Home(){
         <div className="font-montserrat max-w-[1920px] 3xl:justify-self-center" id="section-principal">
             <Header></Header>
             <div className=" flex flex-col gap-6">
-                <section className="w-full h-[calc(100lvh-100px)] min-h-[calc(100svh-100px)] max-h-[calc(100lvh-100px)]">
+                <section className="w-full h-[calc(100lvh-100px)] min-h-[calc(100svh-90px)] max-h-[calc(100lvh-90px)]">
                     <div className="w-auto relative h-full overflow-hidden">
                         <img className="w-full h-lvh max-h-[480px] sm:max-h-[650px] object-cover object-top sm:object-top" src="/images/fotoPrincipal.webp" alt="foto" />
                         <div className=" absolute inset-0 bottom-0 bg-gradient-to-t from-degrade-cinza from-50% sm:from-30% via-degrade-cinza-transparente via-60% sm:via-45% to-transparent to-70% sm:to-65%"></div>
@@ -33,7 +33,7 @@ export default function Home(){
                         </div>
                         <div className="absolute bottom-0 inset-x-0 left-0 right-0 w-full overflow-hidden leading-none">
                             <svg
-                                className="relative block w-full h-7 md:h-7"
+                                className="relative block w-full h-12"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 1200 120"
                                 preserveAspectRatio="none"
