@@ -81,7 +81,7 @@ export default function Home(){
                         <Button className="bg-dourado-base text-white hover:bg-[#bb8e47]">QUERO SABER MAIS</Button>
                     </div>
                 </section>
-                <section className="w-full bg-azul-base">
+                <section className="w-full">
                     <QuemSomos></QuemSomos>
                 </section>
                 <section>

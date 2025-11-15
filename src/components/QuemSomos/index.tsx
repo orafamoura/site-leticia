@@ -1,40 +1,66 @@
-import Button from "../Button";
+import QuemSomosItems from "./items";
 
 export default function QuemSomos() {
 
+    const quemSomosCard = [
+        {
+            id: 1,
+            nome: "Ângela Maria Sacramento",
+            imagem:"/public/fotoSocias/fotoAngela.png",
+            texto: ["Possui 14 anos de experiência na Rede Sarah, atuando com reabilitação neurológica e reabilitação cognitiva.",
+                "Formação internacional em PEI e em curso de avaliação e reabilitação cognitiva.",
+                "Atua na SES/DF, na área da Saúde da Pessoa Idosa; é conselheira do Conselho dos Direitos do Idoso/DF; instrutora"+
+                " de cursos como Intervenção Cognitiva, Reabilitação Neurológica, Prescrição e Adaptação de Cadeiras de Rodas e"+
+                " Tecnologia Assistiva; e sócia-fundadora do Instituto Inclusio – Reabilitação Neurocognitiva."
+            ],
+            tags:["Terapeuta Ocupacional - UFSCar",
+                "Mestre e Doutora em Gerontologia - UCB",
+                "Especializada em Terapia Ocupacional em Reabilitação - Unicamp"
+            ]
+        },
+        {
+            id: 2,
+            nome: "Letícia Dantas",
+            imagem:"/public/fotoSocias/fotoLeticia.png",
+            texto: ["Possui formação em cursos voltados à promoção da saúde, Terapia Ocular Complementar, Prescrição e Adaptação de Cadeiras de Rodas e Reabilitação Cognitiva.",
+                "Membro colaboradora da Liga Acadêmica de Terapia Ocupacional em Contextos Hospitalares e Cuidados Paliativos da Universidade de Brasília.",
+                "Experiência em atendimento domiciliar e clínico com a população idosa. Sócia-fundadora e responsável técnica do Instituto Inclusio – Reabilitação Neurocognitiva."
+            ],
+            tags:["Especialista em Gerontologia pela Fundação de Ensino e Pesquisa em Ciências da Saúde - FEPECS",
+                "Terapeuta Ocupacional formada pela Universidade de Brasília - UnB"
+            ]
+        }
+    ]
+
     return(
-        <div className="w-full flex flex-col lg:grid lg:grid-cols-4 xl:flex xl:flex-row gap-5 justify-center items-center my-25 lg:px-6">
-            <p className="order-1 lg:col-start-2 lg:col-span-2 xl:order-2 text-5xl xl:text-8xl max-w-[400px] font-bold leading-4.5 lg:leading-10 xl:leading-15 2xl:leading-20 text-center ">QUEM SOMOS</p>
-            <div className="w-full min-h-[300px] md:min-h-100 max-w-[450px] lg:col-start-0 lg:col-span-2 flex flex-row border-2 overflow-hidden order-3 self-start sm:self-center ml-0 lg:ml-0 sm:ml-40 rounded-r-[100px] border-l-2">
-                <div className="w-full min-w-[175px] bg-cover bg-top block order-2 bg-[url('/images/sociaLeticia.webp')]"></div>
-                <div className="flex flex-col items-center self-center">
-                    <div className="flex flex-col text-right m-4">
-                        <h4 className="text-dourado-base">Leticia Dantas</h4>
-                        <p className="text-white text-sm">Cofundadora do Instituto Inclusio, Terapeuta Ocupacional especializada em Reabilitação Neurológica. 
-                            Atua com foco em autonomia, qualidade de vida e cuidado humanizado.</p>
-                        <div className="flex flex-col">
-                            <p>Especialista em Neuro</p>
-                            <p>Reabilitação Neurológica</p>
-                        </div>
-                    </div>
-                    <Button className="bg-botao-wpp hover:bg-[#099656] text-white">AGENDAR</Button>
+        <div className="w-full flex flex-col text-white bg-azul-base items-center px-4">
+            <div className="w-full md:w-xl lg:w-4xl">
+                <div className="w-full mt-10 flex items-center
+                 justify-center lg:justify-normal">
+                    <p className="lg:mx-15 text-6xl sm:text-6xl md:text-7xl lg:text-8xl text-center lg:text-right font-extrabold leading-[0.9]">QUEM<br/> SOMOS</p>
+                    <p className="hidden lg:block text-md leading-5">
+                        Instituto Inclusio, um centro de excelência em reabilitação neurológica e cognitiva em Brasília,
+                        especializado no atendimento humanizado e qualificado para adultos e idosos. Somos referência em
+                        Terapia Ocupacional e Reabilitação Neurocognitiva, com uma abordagem centrada no paciente e na 
+                        promoção da autonomia e qualidade de vida. Nossos serviços promovem independência e autonomia por 
+                        meio de estimulação cognitiva.
+                    </p>
                 </div>
-            </div>             
-            <div className="min-h-[300px] md:min-h-100 max-w-[450px] lg:col-start-1 lg:col-end-3 flex flex-row border-2 overflow-hidden order-1 self-end sm:self-center mr-0 lg:mr-0 sm:mr-40 rounded-l-[100px] border-r-2">
-                <div className="w-full min-w-[175px] bg-cover bg-top block bg-[url('/images/sociaAngela.webp')]"></div>
-                <div className="flex flex-col items-center self-center">
-                    <div className="flex flex-col text-left m-4">
-                        <h4 className="text-dourado-base">Angela Dantas</h4>
-                        <p className="text-white text-sm">Cofundadora do Instituto Inclusio, Terapeuta Ocupacional especializada em Reabilitação Neurológica. 
-                            Atua com foco em autonomia, qualidade de vida e cuidado humanizado.</p>
-                        <div className="flex flex-col">
-                            <p>Especialista em Neuro</p>
-                            <p>Reabilitação Neurológica</p>
-                        </div>
-                    </div>
-                    <Button className="bg-botao-wpp hover:bg-[#099656] text-white">AGENDAR</Button>
+                <div className="w-auto flex flex-col content-around gap-40 lg:gap-8 my-20 mt-30 lg:mt-10">
+                    {quemSomosCard.map(function (item) {
+                        return (
+                            <div className="w-auto h-auto lg:h-full relative flex flex-col justify-center lg:justify-normal lg:flex-row  items-center border rounded-xl lg:rounded-full border-white">
+                                <QuemSomosItems 
+                                    quemSomosImg={item.imagem} 
+                                    quemSomosNome={item.nome} 
+                                    quemSomosTexto={item.texto} 
+                                    quemSomosTags={item.tags}>
+                                </QuemSomosItems>
+                            </div>
+                        )
+                    })}
                 </div>
-            </div>             
+            </div>
         </div>
     )
 }
