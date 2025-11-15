@@ -51,9 +51,9 @@ export default function Home(){
                         </div>
                     </div>
                 </section>
-                <section className="w-full h-auto flex flex-col gap-5 items-center">
-                    <h2 className="md:max-w-2xl max-w-lg text-medio leading-4.5 sm:leading-5 md:leading-8 font-bold text-azul-base md:mb-4 text-center">PARA QUEM É A TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA:</h2>
-                    <p className="md:max-w-4xl max-w-lg whitespace-normal text-cards leading-5 sm:leading-6 text-center">População <strong>Adulta e idosa</strong> que enfrentam dificuldades cognitivas e funcionais, decorrentes de condições neurológicas como Doença de Alzheimer, outras demências, Acidente Vascular Encefálico (AVE) e lesões cerebrais</p>
+                <section className="w-full my-10 h-auto flex flex-col gap-2 items-center">
+                    <h2 className="md:max-w-2xl max-w-lg text-destaque leading-4.5 sm:leading-5 md:leading-8 font-extrabold text-azul-base text-center">PARA QUEM É A TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA:</h2>
+                    <p className="md:max-w-xl max-w-lg whitespace-normal text-normal leading-5 sm:leading-5 text-center"><strong>População Adulta e idosa que enfrentam dificuldades cognitivas e funcionais</strong> decorrentes de condições neurológicas como Doença de Alzheimer, outras demências, Acidente Vascular Encefálico (AVE) e lesões cerebrais</p>
                     <Carrossel></Carrossel>
                 </section>
                 <section className="w-full ">
