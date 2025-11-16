@@ -14,7 +14,7 @@ export default function QuemSomosItems({quemSomosNome, quemSomosImg, quemSomosTe
             <div className="w-auto mx-5 lg:mx-10">
                 <p className="my-2 mt-7 text-dourado-base text-2xl font-bold">{quemSomosNome}</p>
                 {quemSomosTexto.map(texto => <p className="w-auto text-sm md:text-sm lg:text-xs text-pretty" key={texto}>{texto}</p>)}
-                <ul className="my-2 flex flex-wrap gap-x-2 gap-y-0 items-center mb-10">
+                <ul className="my-2 flex flex-wrap gap-x-.5 gap-y-0 items-center mb-10">
                     {quemSomosTags.map(tag => <li className="mx-1 my-1 px-4 border rounded-4xl inline-block text-xs text-white" key={tag}>{tag}</li>)}
                 </ul>
                 <Button className="w-50 absolute left-1/2 -translate-x-1/2 bottom-[-20px] bg-botao-wpp hover:bg-[#099656]">AGENDAR</Button> 

@@ -100,7 +100,7 @@ export default function PerguntasFrequentes() {
                     })}
                 </div>
             </div>     
-                <Button className="uppercase bg-dourado-base text-white w-50 mt-10">Mais dúvidas?</Button>   
+                <Button className="uppercase bg-dourado-base text-white w-50 mt-3">Mais dúvidas?</Button>   
         </section>
     )
 }

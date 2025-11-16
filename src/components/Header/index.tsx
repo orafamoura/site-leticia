@@ -19,14 +19,14 @@ export default function Header() {
                 <div className="w-full flex sm:justify-center items-center whitespace-nowrap [&_p]:max-w-none animate-[marquee_20s_linear_infinite] sm:[animation-play-state:paused] sm:relative">
                     <ul className="items-center sm:absolute sm:justify-center">
                         <li className="flex items-center">
-                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-5" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
-                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-4" src="../../../public/icons/vector.svg"/>Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
+                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-4" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
+                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-3" src="../../../public/icons/vector.svg"/>Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
                         </li>
                     </ul>
                     <ul className="sm:opacity-0">
                         <li className="flex items-center">
-                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-5" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
-                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-4" src="../../../public/icons/vector.svg"/>Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
+                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-4" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
+                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-3" src="../../../public/icons/vector.svg"/>Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
                         </li>
                     </ul>
                 </div>

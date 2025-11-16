@@ -24,16 +24,16 @@ export default function Footer(){
 
     return (
         <>
-            <div className="w-full h-[200px] md:h-[200px] flex items-center bg-azul-base">
-                <div className="h-full aspect-square bg-white rounded-r-full overflow-hidden flex items-center content-center pl-3 md:pl-4 mr-4 hidden lg:block">
+            <div className="w-full h-[200px] flex items-center bg-azul-base">
+                <div className="h-full aspect-square bg-white rounded-r-full overflow-hidden flex items-center content-center pl-5 md:pl-7 mr-10 hidden lg:block">
                     <img className="h-[70%] w-auto" src="/images/LogoVerticalColorida.svg" alt=" Logo Vertical da empresa"/>
                 </div>
                 <div className="flex-1 hidden lg:block">
-                    <ul className="flex flex-col gap-2">
+                    <ul className="flex flex-col gap-3">
                         {infoItems.map((item, key) => {
                             return (
                                 <li className="flex items-center gap-2">
-                                    <img className="w-[25px]" key={key} src={item.img} alt={item.alt} />
+                                    <img className="w-[20px]" key={key} src={item.img} alt={item.alt} />
                                     <p className="text-white text-sm">{item.text}</p>
                                 </li>
                             )

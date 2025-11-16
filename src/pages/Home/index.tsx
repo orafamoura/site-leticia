@@ -53,7 +53,7 @@ export default function Home(){
                 </section>
                 <section className="w-full my-10 h-auto flex flex-col gap-2 items-center">
                     <h2 className="md:max-w-2xl max-w-lg text-destaque leading-4.5 sm:leading-5 md:leading-8 font-extrabold text-azul-base text-center">PARA QUEM É A TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA:</h2>
-                    <p className="md:max-w-xl max-w-lg whitespace-normal text-normal leading-5 sm:leading-5 text-center"><strong>População Adulta e idosa que enfrentam dificuldades cognitivas e funcionais</strong> decorrentes de condições neurológicas como Doença de Alzheimer, outras demências, Acidente Vascular Encefálico (AVE) e lesões cerebrais</p>
+                    <p className="md:max-w-xl max-w-lg whitespace-normal text-normal leading-[1.1] text-center"><strong>População Adulta e idosa que enfrentam dificuldades cognitivas e funcionais</strong> decorrentes de condições neurológicas como Doença de Alzheimer, outras demências, Acidente Vascular Encefálico (AVE) e lesões cerebrais</p>
                     <Carrossel></Carrossel>
                 </section>
                 <section className="w-full ">
@@ -69,16 +69,16 @@ export default function Home(){
                     <div className="relative w-full h-[140px] content-center self-center block bg-[url('/images/agendamento.webp')] bg-no-repeat bg-center bg-cover sm:bg-auto">
                         <div className="absolute inset-0 bg-[#806438] opacity-40 z-0"></div>
                         <div className="w-full text-white md:max-w-7/10 lg:max-w-6/10 xl:max-w-4/10 relative flex flex-col gap-3 items-center text-center justify-self-center z-10">
-                            <p className="text-normal mx-8 xs:mx-11 font-bold leading-[1.2] tracking-wider">AGENDE UMA AVALIAÇÃO E DESCUBRA COMO A TERAPIA OCUPACIONAL PODE TRANSFORMAR SUA VIDA!</p>
+                            <p className="text-normal mx-8 xs:mx-25 font-bold leading-[1.2] tracking-wider">AGENDE UMA AVALIAÇÃO E DESCUBRA COMO A TERAPIA OCUPACIONAL PODE TRANSFORMAR SUA VIDA!</p>
                             <Button className="bg-botao-wpp hover:bg-[#099656] text-white text-xs">AGENDAR AVALIAÇÃO</Button>
                         </div>                        
                     </div>
                 </section>
-                <section className="w-full h-[500px]">
+                <section className="w-full h-[500px] mt-20">
                     <div className="flex flex-col items-center gap-5">
                         <p className="max-w-[400px] text-destaque font-extrabold leading-4.5 sm:leading-5 md:leading-8 text-center text-azul-base">COMO FUNCIONA NOSSO ATENDIMENTO</p>
                         <NossoAtendimento></NossoAtendimento>
-                        <Button className="bg-dourado-base text-white hover:bg-[#bb8e47]">QUERO SABER MAIS</Button>
+                        <Button className="mt-5 bg-dourado-base text-white hover:bg-[#bb8e47]">QUERO SABER MAIS</Button>
                     </div>
                 </section>
                 <section className="w-full">
