@@ -73,7 +73,7 @@ export default function Home(){
                         </div>                        
                     </div>
                 </section>
-                <section className="w-full">
+                <section className="w-full h-[500px]">
                     <div className="flex flex-col items-center gap-5">
                         <p className="max-w-[400px] text-destaque font-extrabold leading-4.5 sm:leading-5 md:leading-8 text-center text-azul-base">COMO FUNCIONA NOSSO ATENDIMENTO</p>
                         <NossoAtendimento></NossoAtendimento>
