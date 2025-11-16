@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import NossoAtendimento from "../../components/NossoAtendimento";
 import NossoDiferencial from "../../components/NossoDiferencial";
+import NossoEspaco from "../../components/NossoEspaco";
 import PerguntasFrequentes from "../../components/PerguntasFrequentes";
 import QuemSomos from "../../components/QuemSomos";
 import Servicos from "../../components/Servicos";
@@ -87,7 +88,7 @@ export default function Home(){
                     <PerguntasFrequentes></PerguntasFrequentes>
                 </section>
                 <section className="w-full">
-                    {/*<NossoEspaco></NossoEspaco>*/}
+                    <NossoEspaco></NossoEspaco>
                 </section>
             </div>
             <Footer></Footer>

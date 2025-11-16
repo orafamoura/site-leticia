@@ -1,3 +1,5 @@
+import Button from "../Button"
+
 export default function PerguntasFrequentes() {
 
     const perguntas = [
@@ -79,14 +81,14 @@ export default function PerguntasFrequentes() {
         },
     ]
     return (
-        <section className="text-azul-base">
-            <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
-                <h2 className="mb-12 text-4xl font-bold leading-none text-left sm:text-5xl">PERGUNTAS FREQUENTES</h2>
-                <div className="flex flex-col sm:px-8 lg:px-12 xl:px-32">
+        <section className="text-azul-base flex flex-col items-center">
+            <div className="w-4xl container flex flex-col justify-center p-4 mx-auto md:p-8">
+                <h2 className="w-[300px] mb-12 text-3xl font-extrabold text-left sm:text-4xl leading-[.9]">PERGUNTAS FREQUENTES</h2>
+                <div className="flex flex-col">
                     {perguntas.map((item, key) => {
                         return (
                             <details className="group border-2 rounded-3xl my-0.5 open:bg-azul-base open:text-white">
-                                    <summary className="flex mx-4 gap-7 items-center py-2 outline-none cursor-pointer focus:underline font-bold md:tracking-wider leading-5 text-wrap" key={key}>
+                                    <summary className="flex mx-5 gap-7 items-center py-3 outline-none cursor-pointer focus:underline font-bold md:tracking-wider leading-5 text-wrap" key={key}>
                                         <svg className="max-w-[15px] bg-center bg-no-repeat transition-transform duration-300 group-open:rotate-45 fill-azul-base group-open:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 717 715"><path d="M438 279h279v159H438v277H279V438H0V279h279V0h159v279z"/></svg>
                                         {item.pergunta}
                                     </summary>
@@ -97,7 +99,8 @@ export default function PerguntasFrequentes() {
                         )
                     })}
                 </div>
-            </div>
+            </div>     
+                <Button className="uppercase bg-dourado-base text-white w-50 mt-10">Mais dúvidas?</Button>   
         </section>
     )
 }

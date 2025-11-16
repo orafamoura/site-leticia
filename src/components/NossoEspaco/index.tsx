@@ -7,26 +7,26 @@ export default function NossoEspaco(){
 
 const fotosNossoEspaco = [
     {
-        srcFoto:["/nossoEspacoFotos/fotoG1.png"],
+        srcFoto:["/nossoEspacoFotos/fotoG1.webp"],
         altFoto:["foto 1"],
     },
     {
-        srcFoto:["/nossoEspacoFotos/fotoP1.png", "/nossoEspacoFotos/fotoP2.png"],
+        srcFoto:["/nossoEspacoFotos/fotoP1.webp", "/nossoEspacoFotos/fotoP2.webp"],
         altFoto:["foto 1", "foto 2"],
     },
     {
-        srcFoto:["/nossoEspacoFotos/fotoG2.png"],
+        srcFoto:["/nossoEspacoFotos/fotoG2.webp"],
         altFoto:["foto 1"],
     },
     {
-        srcFoto:["/nossoEspacoFotos/fotoP3.png", "/nossoEspacoFotos/fotoP4.png"],
+        srcFoto:["/nossoEspacoFotos/fotoP3.webp", "/nossoEspacoFotos/fotoP4.webp"],
         altFoto:["foto 1", "foto 2"],
     },
 ]
 
     return(
-        <div className='relative py-15'>
-            <div className='w-auto h-auto relative m-5'>
+        <div className='relative flex justify-center py-15 mx-30'>
+            <div className='w-full h-auto relative m-5'>
                 <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCards]}
                         spaceBetween={10}
@@ -49,7 +49,7 @@ const fotosNossoEspaco = [
                                             {item.srcFoto.map((foto, subIndex) => (
                                             <img
                                                 key={subIndex}
-                                                className="w-full h-[330px] aspect-square object-cover rounded-lg"
+                                                className="w-full h-[300px] aspect-square rounded-lg"
                                                 src={foto}
                                                 alt={item.altFoto[subIndex]}
                                             />
@@ -60,7 +60,7 @@ const fotosNossoEspaco = [
                                     return item.srcFoto.map((foto, subIndex) => (
                                         <SwiperSlide key={`${index}-${subIndex}`} className="h-full block !flex items-center justify-center">
                                             <img
-                                            className="w-full h-[670px] block object-cover rounded-lg"
+                                            className="w-full h-[610px] block object-cover rounded-lg"
                                             src={foto}
                                             alt={item.altFoto[subIndex]}
                                             />
@@ -71,7 +71,7 @@ const fotosNossoEspaco = [
                 </Swiper>
             </div>
             <div className='absolute inset-0 z-5 bg-gradient-to-t from-white from-0% via-white via-0% to-transparent to-40% pointer-events-none'></div>
-            <p className="absolute text-azul-base font-extrabold text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl w-[150px] bottom-5 left-4 z-6 pointer-events-none">NOSSO ESPAÇO</p>
+            <p className="absolute text-azul-base font-extrabold text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl w-full bottom-15 left-10 z-6 pointer-events-none">NOSSO ESPAÇO</p>
         </div>
     )
 }
