@@ -82,17 +82,20 @@ export default function PerguntasFrequentes() {
     ]
     return (
         <section className="text-azul-base flex flex-col items-center">
-            <div className="w-4xl container flex flex-col justify-center p-4 mx-auto md:p-8">
-                <h2 className="w-[300px] mb-12 text-3xl font-extrabold text-left sm:text-4xl leading-[.9]">PERGUNTAS FREQUENTES</h2>
+            <div className="md:w-4xl container flex flex-col justify-center p-4 mx-auto md:p-8">
+                <div className="w-auto flex flex-col text-5xl text-left font-extrabold ">
+                    <p className="text-[2.5rem] sm:text-4xl leading-[.8]">PERGUNTAS</p>
+                    <p className="mb-12 text-[2.5rem] sm:text-4xl">FREQUENTES</p>
+                </div>
                 <div className="flex flex-col">
                     {perguntas.map((item, key) => {
                         return (
                             <details className="group border-2 rounded-3xl my-0.5 open:bg-azul-base open:text-white">
-                                    <summary className="flex mx-5 gap-7 items-center py-3 outline-none cursor-pointer focus:underline font-bold md:tracking-wider leading-5 text-wrap" key={key}>
+                                    <summary className="flex min-h-[60px] mx-5 gap-7 items-center py-3 outline-none cursor-pointer focus:underline font-bold md:tracking-wider leading-[1] text-balance" key={key}>
                                         <svg className="max-w-[15px] bg-center bg-no-repeat transition-transform duration-300 group-open:rotate-45 fill-azul-base group-open:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 717 715"><path d="M438 279h279v159H438v277H279V438H0V279h279V0h159v279z"/></svg>
                                         {item.pergunta}
                                     </summary>
-                                <div className="px-15 pb-4 flex-col text-wrap" >
+                                <div className="px-5 pb-4 flex-col text-balance">
                                     <p className="" key={key}>{item.resposta}</p>
                                 </div>
                             </details>

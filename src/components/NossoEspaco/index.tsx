@@ -25,14 +25,14 @@ const fotosNossoEspaco = [
 ]
 
     return(
-        <div className='relative flex justify-center py-15 mx-30'>
+        <div className='relative flex justify-center py-10 md:py-15 md:mx-30'>
             <div className='w-full h-auto relative m-5'>
                 <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCards]}
                         spaceBetween={10}
                         initialSlide={1}
                         centeredSlides={false}
-                        slidesPerView={1}
+                        slidesPerView={1.5}
                         autoplay={{delay: 3000}}
                         breakpoints={{
                             425:  { spaceBetween: 10, slidesPerView: 2, autoplay: false},
@@ -71,7 +71,7 @@ const fotosNossoEspaco = [
                 </Swiper>
             </div>
             <div className='absolute inset-0 z-5 bg-gradient-to-t from-white from-0% via-white via-0% to-transparent to-40% pointer-events-none'></div>
-            <p className="absolute text-azul-base font-extrabold text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl w-full bottom-15 left-10 z-6 pointer-events-none">NOSSO ESPAÇO</p>
+            <p className="absolute text-azul-base font-extrabold text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl w-[100px] md:w-full bottom-5 md:bottom-15 left-5 md:left-10 z-6 pointer-events-none">NOSSO ESPAÇO</p>
         </div>
     )
 }
