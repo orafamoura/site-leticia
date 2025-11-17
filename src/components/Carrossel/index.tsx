@@ -38,14 +38,14 @@ export default function Carrossel() {
     return (
         <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-        spaceBetween={260}
+        spaceBetween={140}
         initialSlide={1}
         centeredSlides={true}
-        slidesPerView={2}
+        slidesPerView={1.5}
         autoplay={{delay: 3000}}
         breakpoints={{
-            375:  { spaceBetween: 220, slidesPerView: 2, autoplay:{delay: 3000 }},
-            425:  { spaceBetween: 150, slidesPerView: 2, autoplay:{delay: 3000 }},
+            375:  { spaceBetween: 240, slidesPerView: 2, autoplay:{delay: 3000 }},
+            425:  { spaceBetween: 200, slidesPerView: 2, autoplay:{delay: 3000 }},
             640:  { spaceBetween: 20, slidesPerView: 2, autoplay:{delay: 3000 }},
             1024: { spaceBetween: 0, slidesPerView: 3, autoplay:{delay: 3000 }},
             1240: { spaceBetween: 15, initialSlide: 1, slidesPerView: 3, autoplay: false, enabled: false},
