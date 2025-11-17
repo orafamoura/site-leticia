@@ -15,7 +15,7 @@ export default function ItemsServico({servicoTitulo, servicoTexto, servicoImg}: 
                     <div className="flex gap-3">
                         <img className="md:hidden w-[45px] h-[45px]" src={servicoImg}></img>
                         <h3 className="my-2 mb-5 font-bold text-titulo-cards leading-5">
-                            {servicoTitulo.map(titulo => <p className="">{titulo}</p>)}
+                            {servicoTitulo.map(titulo => <p key={titulo} className="">{titulo}</p>)}
                         </h3>
                     </div>
                     <p className="text-normal text-wrap">{servicoTexto}</p>

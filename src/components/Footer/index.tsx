@@ -32,8 +32,8 @@ export default function Footer(){
                     <ul className="flex flex-col gap-3">
                         {infoItems.map((item, key) => {
                             return (
-                                <li className="flex items-center gap-2">
-                                    <img className="w-[20px]" key={key} src={item.img} alt={item.alt} />
+                                <li key={key} className="flex items-center gap-2">
+                                    <img className="w-[20px]" src={item.img} alt={item.alt} />
                                     <p className="text-white text-sm">{item.text}</p>
                                 </li>
                             )

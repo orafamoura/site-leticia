@@ -34,7 +34,7 @@ export default function Header() {
             <header className="bg-white font-montserrat">
             <nav aria-label="Global" className="relative mx-auto flex max-w-7xl h-[65px] items-center justify-between py-2 px-4 lg:px-8">
             <div className="absolute lg:static left-1/2 -translate-x-1/2">
-                <a href="#" className="block">
+                <a href="/" className="block">
                 <img
                     src="/public/images/HorizontalColoridaSFundo.webp"
                     alt="Instituto Inclusio"
@@ -53,11 +53,11 @@ export default function Header() {
                 </button>
             </div>
             <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">QUEM SOMOS</a>
-                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">NOSSOS PACIENTES</a>
-                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">COMO FUNCIONA</a>
-                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">NOSSOS SERVIÇOS</a>
-                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">LOCALIZAÇÃO</a>
+                <a href="#quemSomos" className="text-md/6 font-extrabold text-degrade-cinza ">QUEM SOMOS</a>
+                <a href="#nossosPacientes" className="text-md/6 font-extrabold text-degrade-cinza ">NOSSOS PACIENTES</a>
+                <a href="#comoFunciona" className="text-md/6 font-extrabold text-degrade-cinza ">COMO FUNCIONA</a>
+                <a href="#nossosServicos" className="text-md/6 font-extrabold text-degrade-cinza ">NOSSOS SERVIÇOS</a>
+                <a href="#localizacao" className="text-md/6 font-extrabold text-degrade-cinza ">LOCALIZAÇÃO</a>
             </PopoverGroup>
             </nav>
             <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden font-montserrat">
