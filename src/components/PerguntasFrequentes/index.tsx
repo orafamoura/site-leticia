@@ -5,7 +5,7 @@ export default function PerguntasFrequentes() {
     const perguntas = [
         {
             pergunta: "Custo dos atendimentos?",
-            resposta: ["O Instituto Inclusio oferece serviços de avaliação em Terapia Ocupacional e acompanhamento terapêutico (reabilitação) tanto presencial quanto domiciliar, além de uma avaliação ambiental para adaptar os espaços às necessidades dos pacientes. Cada sessão tem, em média, 50 minutos de duração, com frequência ajustada de acordo com as necessidades individuais. O custo varia conforme a modalidade e a frequência dos atendimentos, ficando em torno de R$ 150,00 a R$ 170,00 por sessão.",
+            resposta: ["O Instituto Inclusio oferece serviços de avaliação em Terapia Ocupacional e acompanhamento terapêutico (reabilitação) tanto presencial quanto domiciliar, além de uma avaliação ambiental para adaptar os espaços às necessidades dos pacientes. Cada sessão tem, em média, 50 minutos de duração, com frequência ajustada de acordo com as necessidades individuais. O custo varia conforme a modalidade e a frequência dos atendimentos, ficando em torno de R$ 200,00 a R$ 250,00 por sessão.",
                 " Um diferencial importante do Instituto Inclusio é que, nos dias sem acompanhamento direto, o paciente recebe atividades específicas para realizar em casa, preparadas pela nossa equipe técnica. Essas atividades são planejadas com o objetivo de manter a estimulação cognitiva e fortalecer a neuroplasticidade, proporcionando melhores resultados e promovendo o progresso contínuo no processo de reabilitação."]
         },
         {

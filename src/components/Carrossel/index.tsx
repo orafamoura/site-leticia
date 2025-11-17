@@ -14,7 +14,7 @@ export default function Carrossel() {
         " das atividades do cotidiano em decorrência de problemas na memória, atenção, "+
         "concentração, funções executivas e outras habilidades essenciais para a autonomia",
         carrosselImg:"carrosselImagens/exemplo.png",
-        carrosselTags:["Doença de Parkinson"]
+        carrosselTags:["Demência", "Alzheimer", "Corpos de lewy"]
         },
         {
         id: 2,
@@ -23,7 +23,7 @@ export default function Carrossel() {
         " lesão cerebral, que busquem apoio especializado em reabilitação neurológica para maior"+
         " independência e participação nas atividades significativas e da rotina.",
         carrosselImg:"carrosselImagens/exemplo.png",
-        carrosselTags:["Doença de Parkinson"]
+        carrosselTags:["Doença de Parkinson", "AVE (Derrame)", "Parkinsonismo"]
         },
         {
         id: 3,       
@@ -31,7 +31,7 @@ export default function Carrossel() {
         carrosselTexto: "Idosos que desejam manter o cérebro ativo preservando a independência"+
         " e autonomia, por meio de atividades, exercícios cognitivos e ocupacionais específicos.",
         carrosselImg:"carrosselImagens/exemplo.png",
-        carrosselTags:["Doença de Parkinson"]
+        carrosselTags:["Transtorno Cognitivo Leve"]
         }
     ]
 

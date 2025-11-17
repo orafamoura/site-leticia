@@ -20,7 +20,7 @@ export default function Servicos() {
         },
         {
             "servicoImg":"/public/icons/servicoCasa.svg",
-            "servicoTitulo":["Atendimento Domiciliar e","em ILPI (casa de repouso)"],
+            "servicoTitulo":["Atendimento Domiciliar"],
             "servicoTexto":"O atendimento acontece no domicílio com o objetivo de propiciar maior comodidade e segurança, "+
             " além de favorecer a compreensão do cotidiano do paciente e de seus familiares, proporcionando maior eficácia nas intervenções."
         },

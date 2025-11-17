@@ -5,7 +5,7 @@ export default function QuemSomos() {
     const quemSomosCard = [
         {
             id: 1,
-            nome: "Ângela Maria Sacramento",
+            nome: "Angela Maria Sacramento",
             imagem:"/public/fotoSocias/fotoAngela.png",
             texto: ["Possui 14 anos de experiência na Rede Sarah, atuando com reabilitação neurológica e reabilitação cognitiva.",
                 "Formação internacional em PEI e em curso de avaliação e reabilitação cognitiva.",

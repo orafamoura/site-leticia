@@ -76,7 +76,7 @@ export default function Home(){
                 <section>
                     <NossoDiferencial></NossoDiferencial>
                     <div className="relative w-full h-[140px] content-center self-center block bg-[url('/images/agendamento.webp')] bg-no-repeat bg-center bg-cover sm:bg-auto">
-                        <div className="absolute inset-0 bg-[#806438] opacity-40 z-0"></div>
+                        <div className="absolute inset-0 bg-[#584525] opacity-40 z-0"></div>
                         <div className="w-full text-white md:max-w-7/10 lg:max-w-6/10 xl:max-w-4/10 relative flex flex-col gap-3 items-center text-center justify-self-center z-10">
                             <p className="text-normal mx-6 xs:mx-25 font-bold leading-[1.2] tracking-wider text-center">AGENDE UMA AVALIAÇÃO E DESCUBRA COMO A TERAPIA OCUPACIONAL PODE TRANSFORMAR SUA VIDA!</p>
                             <Button className="bg-botao-wpp hover:bg-[#099656] text-white text-xs">AGENDAR AVALIAÇÃO</Button>
