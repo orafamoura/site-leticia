@@ -31,55 +31,39 @@ export default function Header() {
                     </ul>
                 </div>
             </section>      
-            <header className="bg-white">
-            <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between py-2 px-4 lg:px-8">
-                <div className="flex lg:flex-1">
-                <a href="#" className="-m-1.5 p-1.5">
-                    <span className="sr-only">Instituto Inclusio</span>
-                    <img
-                    alt=""
+            <header className="bg-white font-montserrat">
+            <nav aria-label="Global" className="relative mx-auto flex max-w-7xl h-[65px] items-center justify-between py-2 px-4 lg:px-8">
+            <div className="absolute lg:static left-1/2 -translate-x-1/2">
+                <a href="#" className="block">
+                <img
                     src="/public/images/HorizontalColoridaSFundo.webp"
-                    className="h-13 w-auto hidden"
-                    />
-                    <img
-                    alt=""
-                    src="/public/images/HorizontalColoridaSFundo.webp"
-                    className="h-13 w-auto not-hidden"
-                    />
+                    alt="Instituto Inclusio"
+                    className="h-13 w-auto"
+                />
                 </a>
-                </div>
-                <div className="flex lg:hidden">
+            </div>
+            <div className="flex lg:flex-1"></div>
+            <div className="flex lg:hidden">
                 <button
-                    type="button"
-                    onClick={() => setMobileMenuOpen(true)}
-                    className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 text-gray-400"
+                type="button"
+                onClick={() => setMobileMenuOpen(true)}
+                className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 text-gray-400"
                 >
-                    <span className="sr-only">Open main menu</span>
-                    <Bars3Icon aria-hidden="true" className="size-6" />
+                <Bars3Icon aria-hidden="true" className="size-6" />
                 </button>
-                </div>
-                <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">
-                    QUEM SOMOS
-                </a>
-                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">
-                    NOSSOS PACIENTES
-                </a>
-                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">
-                    COMO FUNCIONA
-                </a>
-                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">
-                    NOSSOS SERVIÇOS
-                </a>
-                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">
-                    LOCALIZAÇÃO
-                </a>
-                </PopoverGroup>
+            </div>
+            <PopoverGroup className="hidden lg:flex lg:gap-x-12">
+                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">QUEM SOMOS</a>
+                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">NOSSOS PACIENTES</a>
+                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">COMO FUNCIONA</a>
+                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">NOSSOS SERVIÇOS</a>
+                <a href="#" className="text-md/6 font-extrabold text-degrade-cinza ">LOCALIZAÇÃO</a>
+            </PopoverGroup>
             </nav>
-            <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
+            <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden font-montserrat">
                 <div className="fixed inset-0 z-50" />
-                <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-600/10">
-                <div className="flex items-center justify-between">
+                <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-linear-to-b from-white from-[50%] to-bg-transparent to-[70%] p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-600/10">
+                <div className="flex items-center justify-between ">
                     <a href="#" className="-m-1.5 p-1.5">
                     <span className="sr-only">Instituto Inclusio</span>
                     <img
@@ -96,50 +80,49 @@ export default function Header() {
                     <button
                     type="button"
                     onClick={() => setMobileMenuOpen(false)}
-                    className="-m-2.5 rounded-md p-2.5 text-gray-700 dark:text-gray-400"
+                    className="-m-2.5 rounded-md p-2.5 text-gray-700"
                     >
                     <span className="sr-only">Close menu</span>
                     <XMarkIcon aria-hidden="true" className="size-6" />
                     </button>
                 </div>
                 <div className="mt-6 flow-root">
-                    <div className="-my-6 divide-y divide-gray-500/10 dark:divide-white/10">
-                    <div className="space-y-2 py-6">
+                    <div className="-my-6 divide-y place-items-center divide-gray-500/10">
+                    <div className="w-full space-y-2 py-6">
                         <a
-                        href="#"
-                        className="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold text-black hover:bg-gray-50 dark:hover:bg-white/5"
+                        href="#quemSomos"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="mx-7 block rounded-full bg-degrade-cinza px-3 py-1 text-normal font-bold text-white hover:bg-gray-50"
                         >
-                        Quem somos
+                        QUEM SOMOS
                         </a>
                         <a
-                        href="#"
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-black hover:bg-gray-50 dark:hover:bg-white/5"
+                        href="#nossosPacientes"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="mx-7 block rounded-full bg-degrade-cinza px-3 py-1 text-normal font-bold text-white hover:bg-gray-50"
                         >
-                        Publico Alvo
+                        NOSSOS PACIENTES
                         </a>
                         <a
-                        href="#"
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-black hover:bg-gray-50 dark:hover:bg-white/5"
+                        href="#comoFunciona"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="mx-7 block rounded-full bg-degrade-cinza px-3 py-1 text-normal font-bold text-white hover:bg-gray-50"
                         >
-                        Servico
+                        COMO FUNCIONA
                         </a>
                         <a
-                        href="#"
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-black hover:bg-gray-50 dark:hover:bg-white/5"
+                        href="#nossosServicos"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="mx-7 block rounded-full bg-degrade-cinza px-3 py-1 text-normal font-bold text-white hover:bg-gray-50"
                         >
-                        Como funciona
+                        NOSSOS SERVIÇOS
                         </a>
                         <a
-                        href="#"
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-black hover:bg-gray-50 dark:hover:bg-white/5"
+                        href="#localizacao"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="mx-7 block rounded-full bg-degrade-cinza px-3 py-1 text-normal font-bold text-white hover:bg-gray-50"
                         >
-                        Duvidas
-                        </a>
-                        <a
-                        href="#"
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-black hover:bg-gray-50 dark:hover:bg-white/5"
-                        >
-                        Localizacao
+                        LOCALIZAÇÃO
                         </a>
                     </div>
                     </div>
