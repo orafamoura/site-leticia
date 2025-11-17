@@ -27,15 +27,15 @@ export default function Servicos() {
     ]
     
     return (
-        <div className="w-6xl flex-col text-center">
-            <div className="mt-4 w-full h-auto min-h-[400px] min-w-[320px] flex flex-col lg:flex-row lg:justify-center">
+        <div className="md:w-6xl flex-col text-center">
+            <div className="w-full mt-4 w-full h-auto min-h-[400px] min-w-[320px] flex flex-col lg:flex-row lg:justify-center">
                 {itemsServico.map(function(item, key){
                     return (
                         <ItemsServico key={key} servicoImg={item.servicoImg} servicoTexto={item.servicoTexto} servicoTitulo={item.servicoTitulo}></ItemsServico>
                     )
                 })}
             </div>
-            <Button className="my-10 bg-dourado-base hover:bg-[#c5913e] text-white px-15">SAIBA MAIS</Button>
+            <Button className="mb-10 md:mt-10 bg-dourado-base hover:bg-[#c5913e] text-white px-15">SAIBA MAIS</Button>
         </div>
     )
 }
