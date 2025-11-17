@@ -48,7 +48,7 @@ export default function QuemSomos() {
                 <div className="w-auto flex flex-col content-around gap-40 lg:gap-8 my-20 mt-30 lg:mt-10">
                     {quemSomosCard.map(function (item) {
                         return (
-                            <div className="w-auto h-auto lg:h-full relative flex flex-col justify-center lg:justify-normal lg:flex-row  items-center border rounded-xl lg:rounded-full border-white">
+                            <div className="w-auto h-auto lg:h-full relative flex flex-col justify-center lg:justify-normal lg:flex-row  items-center border rounded-4xl lg:rounded-full border-white">
                                 <QuemSomosItems 
                                     quemSomosImg={item.imagem} 
                                     quemSomosNome={item.nome} 
