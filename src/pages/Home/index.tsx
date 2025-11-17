@@ -36,7 +36,7 @@ export default function Home(){
                                     <p className="md:max-w-none max-w-80 px-2 py-1 my-3 text-normal text-center text-balance leading-[1] border rounded-4xl border-dourado-base ">Especializada para Adultos e Idosos em Brasilia</p>
                                 </div>
                             </div>
-                            <Button className="bg-botao-wpp hover:bg-[#099656] text-white">AGENDAR AVALIACAO</Button>                            
+                            <Button className="bg-botao-wpp hover:bg-[#099656] text-white">AGENDAR AVALIAÇÃO</Button>                            
                         </div>
                         <div className="absolute bottom-0 inset-x-0 left-0 right-0 w-full overflow-hidden leading-none">
                             <svg
@@ -59,9 +59,9 @@ export default function Home(){
                     </div>
                 </section>
                 <section id="nossosPacientes" className="w-full my-10 h-auto flex flex-col gap-2 items-center">
-                    <div className="mx-5">
+                    <div className="mx-5 md:flex flex-col items-center">
                         <h2 className="pb-2 md:max-w-2xl max-w-lg text-destaque leading-[1] font-extrabold text-azul-base text-left md:text-center text-balance"><strong className="font-extrabold md:text-destaque text-[2.6rem]">PARA QUEM É</strong> A TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA:</h2>
-                        <p className="md:max-w-xl max-w-lg whitespace-normal text-normal leading-[1.1] md:text-center text-balance"><strong>População Adulta e idosa que enfrentam dificuldades cognitivas e funcionais</strong> decorrentes de condições neurológicas como Doença de Alzheimer, outras demências, Acidente Vascular Encefálico (AVE) e lesões cerebrais</p>
+                        <p className="md:max-w-xl max-w-lg whitespace-normal text-normal leading-[1.1] md:text-center text-balance lg:text-pretty "><strong>População Adulta e idosa que enfrentam dificuldades cognitivas e funcionais</strong> decorrentes de condições neurológicas como Doença de Alzheimer, outras demências, Acidente Vascular Encefálico (AVE) e lesões cerebrais</p>
                     </div>
                     <Carrossel></Carrossel>
                 </section>

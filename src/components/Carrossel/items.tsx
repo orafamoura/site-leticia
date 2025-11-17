@@ -24,7 +24,7 @@ export default function CarrosselItem({carrosselTitulo, carrosselTexto, carrosse
                     <p className="my-4 w-full max-w-3xs h-[1px] bg-dourado-base"></p>
                 </a>
                 <p className="mb-7 text-white text-sm md:text-normal">{carrosselTexto}</p>
-                <ul className="my-2 flex flex-wrap gap-x-2 gap-y-0 mb-10">
+                <ul className="my-2 flex flex-wrap gap-x-0 gap-y-0 mb-10">
                     {carrosselTags.map(tag => <li className="mx-1 my-1 px-4 border rounded-4xl inline-block text-white text-normal" key={tag}>{tag}</li>)}
                 </ul>
             </div>
