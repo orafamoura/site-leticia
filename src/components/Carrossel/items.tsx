@@ -18,7 +18,7 @@ export default function CarrosselItem({carrosselTitulo, carrosselTexto, carrosse
                         {carrosselTitulo.map((item, index) => (
                             index % 2 === 0
                             ? <p className="mt-1 font-bold text-sm md:text-normal tracking-wider" key={index}>{item}</p>
-                            : <p className="font-bold text-base md:text-lg tracking-wider" key={index}>{item}</p>
+                            : <p className="font-bold text-base md:text-[1.3rem] tracking-wider" key={index}>{item}</p>
                         ))}
                     </h5>
                     <p className="my-4 w-full max-w-3xs h-[1px] bg-dourado-base"></p>

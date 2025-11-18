@@ -18,7 +18,7 @@ export default function Home(){
                     <div className="w-auto relative h-full overflow-hidden">
                         <img className="w-full h-lvh max-h-[480px] sm:max-h-[650px] object-cover object-top sm:object-top" src="/images/fotoPrincipal.webp" alt="foto" />
                         <div className=" absolute inset-0 bottom-0 bg-gradient-to-t from-degrade-cinza from-50% sm:from-30% via-degrade-cinza-transparente via-60% sm:via-45% to-transparent to-70% sm:to-65%"></div>
-                        <div className="flex flex-col pb-10 absolute inset-x-0 bottom-10 gap-5 items-center mx-4 md:mx-0">
+                        <div className="flex flex-col pb-5 md:pb-10 absolute inset-x-0 bottom-10 gap-5 items-center mx-4 md:mx-0">
                             <div className="w-full h-auto flex flex-col md:flex-row justify-center items-center md:gap-9 gap-1">
                                 <div className="rounded-full bg-white p-4">
                                     <img className="size-30 md:size-40 h-auto pb-1 p-2 mb:pb-3 py-1" src="/images/LogoVerticalColorida.svg" alt=" Logo Vertical da empresa"/>
@@ -33,7 +33,7 @@ export default function Home(){
                                                 INDEPENDÊNCIA E QUALIDADE DE VIDA
                                             </p>
                                         </div>
-                                    <p className="md:max-w-none max-w-80 px-2 py-1 my-3 text-normal text-center text-balance leading-[1] border rounded-4xl border-dourado-base ">Especializada para Adultos e Idosos em Brasilia</p>
+                                    <p className="md:max-w-none max-w-80 px-2 py-1 mt-3 md:my-3 text-normal text-center text-balance leading-[1] border rounded-4xl border-dourado-base ">Especializada para Adultos e Idosos em Brasilia</p>
                                 </div>
                             </div>
                             <Button className="bg-botao-wpp hover:bg-[#099656] text-white">AGENDAR AVALIAÇÃO</Button>                            

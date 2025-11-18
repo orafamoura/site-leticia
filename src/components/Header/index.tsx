@@ -63,7 +63,7 @@ export default function Header() {
             <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden font-montserrat">
                 <div className="fixed inset-0 z-50" />
                 <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-linear-to-b from-white from-[50%] to-bg-transparent to-[70%] p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-600/10">
-                <div className="flex items-center justify-between ">
+                <div className="flex items-center justify-between">
                     <a href="#" className="-m-1.5 p-1.5">
                     <span className="sr-only">Instituto Inclusio</span>
                     <img

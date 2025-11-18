@@ -36,29 +36,31 @@ export default function Carrossel() {
     ]
 
     return (
-        <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-        spaceBetween={140}
-        initialSlide={1}
-        centeredSlides={true}
-        slidesPerView={1.5}
-        autoplay={{delay: 3000}}
-        breakpoints={{
-            375:  { spaceBetween: 240, slidesPerView: 2, autoplay:{delay: 3000 }},
-            425:  { spaceBetween: 200, slidesPerView: 2, autoplay:{delay: 3000 }},
-            640:  { spaceBetween: 20, slidesPerView: 2, autoplay:{delay: 3000 }},
-            1024: { spaceBetween: 0, slidesPerView: 3, autoplay:{delay: 3000 }},
-            1240: { spaceBetween: 15, initialSlide: 1, slidesPerView: 3, autoplay: false, enabled: false},
-        }}
-        className="w-full lg:w-6xl m-8 mySwiper">
-            {itemsDoCarrossel.map(function (item, key) {
-                return (
-                    <SwiperSlide className='!h-auto justify-items-center flex items-stretch'>
-                        <CarrosselItem key={key} carrosselImg={item.carrosselImg} carrosselTexto={item.carrosselTexto} carrosselTitulo={item.carrosselTitulo} carrosselTags={item.carrosselTags}></CarrosselItem>
-                    </SwiperSlide>
-                )
-            })}
-            
-        </Swiper>
+        <div className='w-full'>
+            <Swiper
+            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+            spaceBetween={15}
+            initialSlide={1}
+            centeredSlides={true}
+            slidesPerView={1.1}
+            autoplay={{delay: 3000}}
+            breakpoints={{
+                375:  { spaceBetween: 240, slidesPerView: 2, autoplay:{delay: 3000 }},
+                425:  { spaceBetween: 200, slidesPerView: 2, autoplay:{delay: 3000 }},
+                640:  { spaceBetween: 20, slidesPerView: 2, autoplay:{delay: 3000 }},
+                1024: { spaceBetween: 20, slidesPerView: 3, autoplay:{delay: 3000 }},
+                1240: { spaceBetween: 10, initialSlide: 1, slidesPerView: 3, autoplay: false, enabled: false},
+            }}
+            className="w-auto md:w-7xl m-8 mySwiper">
+                {itemsDoCarrossel.map(function (item, key) {
+                    return (
+                        <SwiperSlide className='!h-auto justify-items-center flex items-stretch'>
+                            <CarrosselItem key={key} carrosselImg={item.carrosselImg} carrosselTexto={item.carrosselTexto} carrosselTitulo={item.carrosselTitulo} carrosselTags={item.carrosselTags}></CarrosselItem>
+                        </SwiperSlide>
+                    )
+                })}
+            </Swiper>
+        </div>
+
     )
 }

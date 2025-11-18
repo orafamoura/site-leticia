@@ -27,8 +27,8 @@ export default function Servicos() {
     ]
     
     return (
-        <div className="md:w-6xl flex-col text-center">
-            <div className="w-full mt-4 w-full h-auto min-h-[400px] min-w-[320px] flex flex-col lg:flex-row lg:justify-center">
+        <div className="w-full flex-col text-center">
+            <div className="w-full lg:w-5xl mt-4 h-auto min-h-[400px] min-w-[320px] flex flex-col lg:flex-row lg:justify-center">
                 {itemsServico.map(function(item, key){
                     return (
                         <ItemsServico key={key} servicoImg={item.servicoImg} servicoTexto={item.servicoTexto} servicoTitulo={item.servicoTitulo}></ItemsServico>

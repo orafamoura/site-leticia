@@ -1,3 +1,5 @@
+import Button from "../Button"
+
 export default function Footer(){
 
     const infoItems = [
@@ -24,21 +26,25 @@ export default function Footer(){
 
     return (
         <>
-            <div className="w-full h-[200px] flex items-center bg-azul-base">
+            <div className="w-full h-full md:h-[200px] flex md:flex-row flex-col-reverse items-center bg-azul-base">
                 <div className="h-full aspect-square bg-white rounded-r-full overflow-hidden flex items-center content-center pl-5 md:pl-7 mr-10 hidden lg:block">
                     <img className="h-[70%] w-auto" src="/images/LogoVerticalColorida.svg" alt=" Logo Vertical da empresa"/>
                 </div>
-                <div className="flex-1 hidden lg:block">
-                    <ul className="flex flex-col gap-3">
+                <div className="flex-1 lg:block">
+                    <ul className="flex flex-col gap-3 px-6">
                         {infoItems.map((item, key) => {
                             return (
                                 <li key={key} className="flex items-center gap-2">
-                                    <img className="w-[20px]" src={item.img} alt={item.alt} />
+                                    <img className="min-w-[30px] w-[30px] md:w-[20px]" src={item.img} alt={item.alt} />
                                     <p className="text-white text-sm">{item.text}</p>
                                 </li>
                             )
                         })}
+                        <Button className="bg-dourado-base text-white my-5 mx-4 md:hidden">NOS SIGA NO INSTAGRAM</Button>
                     </ul>
+                </div>
+                <div className="flex items-center lg:block md:hidden">
+                    <img className="h-full w-full md:hidden" src="/images/HorizontalBranca.svg" alt=" Logo Vertical da empresa"/>
                 </div>
                 <div>
                     <iframe
@@ -49,6 +55,9 @@ export default function Footer(){
                     allowFullScreen 
                     loading="lazy" 
                     referrerPolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>
+
                 </div>
             </div>
         </>
