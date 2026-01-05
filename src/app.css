@@ -56,13 +56,3 @@ html {
   animation: marquee 20s linear infinite;
 }
 
-summary::-webkit-details-marker {
-  display: none;
-  text-decoration-line: none;
-}
-
-summary {
-  list-style: none; 
-  text-decoration-line: none;
-}
-

@@ -39,8 +39,6 @@ const fotosNossoEspaco = [
                             640:  { spaceBetween: 10, slidesPerView: 3, autoplay:false},
                             1024: { spaceBetween: 10, slidesPerView: 4, autoplay:false}
                                     }}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
                         className="w-full h-full max-h-[700px] min-h-[500px]">
                             {fotosNossoEspaco.map((item, index) => {
                                 if (index % 2 === 1) {

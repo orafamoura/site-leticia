@@ -11,21 +11,21 @@ interface carrosselItemProps {
 export default function CarrosselItem({carrosselTitulo, carrosselTexto, carrosselImg, carrosselTags}: carrosselItemProps){
     return (
         <div className="max-w-[300px] sm:max-w-[380px] min-w-[300px] h-full border-transparent bg-azul-base rounded-2xl flex flex-col justify-between">
-            <img className="w-full h-[140px] rounded-t-2xl object-cover" src={carrosselImg} alt="" />
-            <div className="mx-4 my-2 flex-1 flex flex-col">
+            <img className="w-full h-[160px] rounded-t-2xl object-cover object-bottom" src={carrosselImg} alt="" />
+            <div className="mx-4 my-2 flex-1 flex flex-col gap-1">
                 <a className="w-full">
-                    <h5 className="text-white text-lg sm:text-2xl font-extrabold">
+                    <h5 className="flex-1 text-white font-extrabold">
                         {carrosselTitulo.map((item, index) => (
                             index % 2 === 0
-                            ? <p className="mt-1 font-bold text-sm md:text-normal tracking-wider" key={index}>{item}</p>
+                            ? <p className="mt-1 font-normal text-sm md:text-[1.1rem] tracking-wider" key={index}>{item}</p>
                             : <p className="font-bold text-base md:text-[1.3rem] tracking-wider" key={index}>{item}</p>
                         ))}
                     </h5>
                     <p className="my-4 w-full max-w-3xs h-[1px] bg-dourado-base"></p>
                 </a>
-                <p className="mb-7 text-white text-sm md:text-normal">{carrosselTexto}</p>
-                <ul className="my-2 flex flex-wrap gap-x-0 gap-y-0 mb-10">
-                    {carrosselTags.map(tag => <li className="mx-1 my-1 px-4 border rounded-4xl inline-block text-white text-normal" key={tag}>{tag}</li>)}
+                <p className="flex-1 text-white text-sm md:text-normal">{carrosselTexto}</p>
+                <ul className="my-2 flex flex-wrap-reverse gap-x-0 gap-y-0 mb-3">
+                    {carrosselTags.map(tag => <li className="mx-1 my-1 px-4 border rounded-4xl inline-block text-white text-[.8rem] font-semibold bg-black/10" key={tag}>{tag}</li>)}
                 </ul>
             </div>
             <div className="flex justify-center my-2.5">
