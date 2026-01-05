@@ -17,13 +17,7 @@ export default function Servicos() {
             "servicoTexto":"Acompanhamento integral realizado por profissional qualificado, utilizando testes e instrumentos"+
             " padronizados nos aspectos neurológicos, no desempenho ocupacional, na funcionalidade, na elaboração do Plano"+
             " Terapêutico Singular (PTS) e em intervenções personalizadas conforme as necessidades de cada paciente e sua família."
-        },
-        {
-            "servicoImg":"/public/icons/servicoCasa.svg",
-            "servicoTitulo":["Atendimento Domiciliar"],
-            "servicoTexto":"O atendimento acontece no domicílio com o objetivo de propiciar maior comodidade e segurança, "+
-            " além de favorecer a compreensão do cotidiano do paciente e de seus familiares, proporcionando maior eficácia nas intervenções."
-        },
+        }
     ]
     
     return (

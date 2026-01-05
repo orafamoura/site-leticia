@@ -13,7 +13,7 @@ export default function Carrossel() {
         carrosselTexto: "Atendemos pessoas que apresentam dificuldades no desempenho "+
         " das atividades do cotidiano em decorrência de problemas na memória, atenção, "+
         "concentração, funções executivas e outras habilidades essenciais para a autonomia",
-        carrosselImg:"carrosselImagens/exemplo.png",
+        carrosselImg:"carrosselImagens/dificuldadeCognitiva.png",
         carrosselTags:["Demência", "Alzheimer", "Corpos de lewy"]
         },
         {
@@ -22,7 +22,7 @@ export default function Carrossel() {
         carrosselTexto: "Pessoa que tiveram AVE (derrame), Doença de Parkinson ou alguma "+
         " lesão cerebral, que busquem apoio especializado em reabilitação neurológica para maior"+
         " independência e participação nas atividades significativas e da rotina.",
-        carrosselImg:"carrosselImagens/exemplo.png",
+        carrosselImg:"carrosselImagens/dificuldadesNeurologicas.png",
         carrosselTags:["Doença de Parkinson", "AVE (Derrame)", "Parkinsonismo"]
         },
         {
@@ -30,7 +30,7 @@ export default function Carrossel() {
         carrosselTitulo:["Idosos que querem","manter o cérebro ativo"],
         carrosselTexto: "Idosos que desejam manter o cérebro ativo preservando a independência"+
         " e autonomia, por meio de atividades, exercícios cognitivos e ocupacionais específicos.",
-        carrosselImg:"carrosselImagens/exemplo.png",
+        carrosselImg:"carrosselImagens/cerebroAtivo.png",
         carrosselTags:["Transtorno Cognitivo Leve"]
         }
     ]
@@ -51,7 +51,7 @@ export default function Carrossel() {
                 1024: { spaceBetween: 20, slidesPerView: 3, autoplay:{delay: 3000 }},
                 1240: { spaceBetween: 10, initialSlide: 1, slidesPerView: 3, autoplay: false, enabled: false},
             }}
-            className="w-auto md:w-7xl m-8 mySwiper">
+            className="w-auto max-w-[1200px] m-8 mySwiper">
                 {itemsDoCarrossel.map(function (item, key) {
                     return (
                         <SwiperSlide className='!h-auto justify-items-center flex items-stretch'>

@@ -33,16 +33,14 @@ export default function QuemSomos() {
     ]
 
     return(
-        <div className="w-full flex flex-col text-white bg-azul-base items-center px-4">
+        <div className="w-full flex flex-col text-white items-center px-4">
             <div className="w-full md:w-xl lg:w-5xl">
                 <div className="w-full mt-10 flex items-center justify-center lg:justify-normal">
                     <p className="lg:mx-15 text-6xl sm:text-6xl md:text-7xl lg:text-8xl text-center lg:text-right font-extrabold leading-[0.9]">QUEM<br/> SOMOS</p>
                     <p className="hidden lg:block text-md leading-5 tracking-wide">
-                        Instituto Inclusio, um centro de excelência em reabilitação neurológica e cognitiva em Brasília,
-                        especializado no atendimento humanizado e qualificado para adultos e idosos. Somos referência em
-                        Terapia Ocupacional e Reabilitação Neurocognitiva, com uma abordagem centrada no paciente e na 
-                        promoção da autonomia e qualidade de vida. Nossos serviços promovem independência e autonomia por 
-                        meio de estimulação cognitiva.
+                        Somos o Instituto Inclusio, um centro especializado em reabilitação neurológica e cognitiva para adultos e idosos em Brasília. 
+                        Atuamos com Terapia Ocupacional baseada em cuidado humanizado, avaliação qualificada e intervenções que promovem autonomia, 
+                        funcionalidade e qualidade de vida.
                     </p>
                 </div>
                 <div className="w-auto flex flex-col content-around gap-40 lg:gap-8 my-20 mt-30 lg:mt-10">

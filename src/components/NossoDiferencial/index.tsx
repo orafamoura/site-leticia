@@ -3,18 +3,9 @@ export default function NossoDiferencial() {
     const nossoDiferencialTexto = [
         {texto:
             [
-                "Oferecer tratamento personalizado, humanizado com resultados concretos"+
-                " que fazem a diferença no seu dia a dia. Trabalhamos para aumentar sua participação "+
-                "ativa e engajamento em cada atividade do cotidiano, proporcionando mais autonomia e qualidade de vida.",
-                "Cada etapa do nosso trabalho é focada em transformar o potencial de cada pessoa em conquistas reais.",
-                "Cada paciente tem acompanhamento personalizado e recebe atividades planejadas, "+
-                " desenvolvida pela equipe, para realizar no domicílio. Isso favorece a continuidade"+
-                " da estimulação cognitiva, enriquecimento ambiental, a neuroplasticidade e o processo da reabilitação.",
-                "Desenvolvemos recursos terapêutico específicos para a reabilitação da população adulta"+
-                " e idosa como: jogos direcionados, exercícios cognitivos, planers, cadernos de exercícios"+
-                " cognitivos e uso de tecnologias assistivas, com objetivo de aprimorar as habilidades cognitivas.",
-                " Além do atendimento em Terapia Ocupacional, oferecemos qualificação profissional para cuidadores,"+
-                " profissionais da saúde e educação, com cursos, workshops e mentorias especializadas."
+                "Oferecemos um atendimento personalizado e centrado no paciente, com resultados que impactam a rotina de forma concreta.",
+                "Cada pessoa recebe atividades planejadas para realizar em casa, ampliando a estimulação cognitiva, a neuroplasticidade e a continuidade da reabilitação.",
+                "Também desenvolvemos recursos terapêuticos próprios, como jogos, exercícios cognitivos, planners e cadernos específicos para adultos e idosos."
             ]
         }
     ]
