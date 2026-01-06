@@ -65,6 +65,35 @@ export default function Home(){
                     </div>
                     <Carrossel></Carrossel>
                 </section>
+                <section className="w-full">
+                    <div className="w-full relative mb-15 w-screen left-1/2 -translate-x-1/2">
+                        <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 h-px bg-azul-base" />
+                            <div className="relative flex justify-center">
+                                <span className="bg-white px-3 md:text-normal font-bold md:tracking-[0.2em] text-dourado-base">
+                                CADERNOS DE ESTIMULAÇÃO COGNITIVA
+                                </span>
+                            </div>
+                    </div>
+                    <div className="px-4 flex flex-col items-center">
+                        <p className="pb-2 md:max-w-4xl max-w-3xl text-destaque leading-[1] font-extrabold text-azul-base text-center text-balance uppercase">Estimulação diária, acessível e pensada para fortalecer as habilidades do paciente</p>
+                        <div className="flex flex-col md:flex-row justify-center">
+                            <img className="w-auto md:w-2/5 m-5 inset-y-0 top-[-110px] lg:static" src="/public/cadernoImg/caderno.png" alt="Caderno Inclusio" />
+                            <div className="md:w-2/6 flex flex-col justify-evenly text-normal">
+                                <p className="text-balance">Nossos cadernos fazem parte do Método Inclusio e reúnem atividades simples, 
+                                    variadas e eficazes para estimular memória, atenção, linguagem, raciocínio e 
+                                    funções executivas. Cada exercício foi desenvolvido para apoiar o paciente de 
+                                    forma prática, promover autonomia e facilitar a participação da família no cuidado.</p>
+                                <ul className="list-disc marker:text-xs">O que os torna especiais:
+                                    <li className="ml-7">Conteúdo claro e acolhedor, ideal para pacientes e seus familiares.</li>
+                                    <li className="ml-7">Atividades diversificadas que mantêm o cérebro ativo todos os dias.</li>
+                                    <li className="ml-7">Material estruturado para integrar casa e tratamento, reforçando a rotina cognitiva.</li>
+                                </ul>
+                                <p className="text-center text-azul-base font-extrabold text-pretty">Design organizado, com exercícios que favorecem foco, engajamento e independência.</p>
+                            </div>
+                        </div>
+                        <Button className="mt-5 bg-dourado-base text-white hover:bg-[#bb8e47]">QUERO SABER MAIS</Button>
+                    </div>
+                </section>
                 <section id="nossosServicos" className="w-full ">
                     <div className=" h-[70%] flex flex-col items-center bg-degrade-cinza">
                         <img className="w-full max-w-[390px] h-[140px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/images/nossosServicos.png)]"></img>
