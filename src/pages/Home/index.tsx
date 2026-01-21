@@ -2,6 +2,7 @@ import Button from "../../components/Button";
 import Carrossel from "../../components/Carrossel";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import Modalidades from "../../components/Modalidades";
 import NossoAtendimento from "../../components/NossoAtendimento";
 import NossoDiferencial from "../../components/NossoDiferencial";
 import NossoEspaco from "../../components/NossoEspaco";
@@ -66,7 +67,7 @@ export default function Home(){
                     <Carrossel></Carrossel>
                 </section>
                 <section className="w-full">
-                    <div className="w-full relative mb-15 w-screen left-1/2 -translate-x-1/2">
+                    <div className="relative mb-15 w-full left-1/2 -translate-x-1/2">
                         <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 h-px bg-azul-base" />
                             <div className="relative flex justify-center">
                                 <span className="bg-white px-3 md:text-normal font-bold md:tracking-[0.2em] text-dourado-base">
@@ -94,17 +95,42 @@ export default function Home(){
                         <Button className="mt-5 bg-dourado-base text-white hover:bg-[#bb8e47]">QUERO SABER MAIS</Button>
                     </div>
                 </section>
-                <section id="nossosServicos" className="w-full ">
+                <section id="nossosServicos" className="w-full relative">
+                    <div className="top-0 left-0 right-0 w-full overflow-hidden leading-none pointer-events-none">
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 100 20"
+                        preserveAspectRatio="none"
+                        className="w-full h-16 block -translate-y-[-1px]"
+                        >
+                        <path d="M0 20 L50 0 L100 20 Z" fill="#577585" />
+                        </svg>
+                    </div>
                     <div className=" h-[70%] flex flex-col items-center bg-degrade-cinza">
                         <img className="w-full max-w-[390px] h-[140px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/images/nossosServicos.png)]"></img>
                         <div>
                             <Servicos></Servicos>
                         </div>
+                        <div className="top-0 left-0 right-0 w-full overflow-hidden leading-none pointer-events-none">
+                            <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 100 20"
+                            preserveAspectRatio="none"
+                            className="w-full h-16 block -translate-y-[-1px]">
+                                <path d="M0 20 L50 0 L100 20 Z" fill="#0088b6" />
+                            </svg>
+                        </div>
+                    </div>
+                </section>
+                <section className="-mt-6">
+                    <div className="bg-azul-base text-center flex flex-col gap-10">
+                        <p className="text-3xl sm:text-4xl md:text-5xl text-white font-extrabold">MODALIDADE</p>
+                        <Modalidades></Modalidades>
                     </div>
                 </section>
                 <section>
                     <NossoDiferencial></NossoDiferencial>
-                    <div className="relative w-full h-full min-h-[140px] content-center self-center block bg-[url('/images/agendamento.webp')] bg-no-repeat bg-center bg-cover sm:bg-auto">
+                    <div className="mt-7 relative w-full h-full min-h-[140px] content-center self-center block bg-[url('/images/agendamento.webp')] bg-no-repeat bg-center bg-cover sm:bg-auto">
                         <div className="absolute inset-0 bg-[#584525] opacity-40 z-0"></div>
                         <div className="my-2 w-full h-full text-white md:max-w-7/10 lg:max-w-6/10 xl:max-w-4/10 relative flex flex-col gap-3 items-center text-center justify-self-center z-10">
                             <p className="text-normal mx-6 xs:mx-25 font-bold leading-[1.1] tracking-wider text-center">AGENDE UMA AVALIAÇÃO E DESCUBRA COMO A TERAPIA OCUPACIONAL PODE TRANSFORMAR SUA VIDA!</p>
