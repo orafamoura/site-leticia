@@ -4,7 +4,7 @@ export default function Modalidades() {
     
     const itemsModalidade = [
         {
-            "modalidadeImg":"/public/icons/presencial.svg",
+            "modalidadeImg":"/imgs/icons/presencial.svg",
             "modalidadeTitulo":"Atendimento Presencial",
             "modalidadeTexto":[
             <>
@@ -20,7 +20,7 @@ export default function Modalidades() {
             ]
         },
         {
-            "modalidadeImg":"/public/icons/casa.svg",
+            "modalidadeImg":"/imgs/icons/casa.svg",
             "modalidadeTitulo":"Atendimento Domiciliar",
             "modalidadeTexto":[
             <>
@@ -37,7 +37,7 @@ export default function Modalidades() {
             ]
         },
         {
-            "modalidadeImg":"/public/icons/computer.svg",
+            "modalidadeImg":"/imgs/icons/computer.svg",
             "modalidadeTitulo":"Atendimento Online",
             "modalidadeTexto":[
             <>

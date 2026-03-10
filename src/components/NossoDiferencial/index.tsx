@@ -14,7 +14,7 @@ export default function NossoDiferencial() {
         <div className="w-full px-4 md:my-25 justify-center flex">
             <div className="w-full max-w-5xl flex flex-col md:flex-row items-stretch border-azul-base rounded-t-full md:rounded-xl border-2 md:overflow-hidden">
                 <div className="w-full md:w-5/12 min-h-[260px] md:min-h-0">
-                    <div className="w-full h-full bg-[url('/nossoDiferencialFoto/fotoSocias.png')] bg-contain md:bg-cover md:bg-top bg-center" />
+                    <div className="w-full h-full bg-[url('/imgs/social/foto-socias.png')] bg-contain md:bg-cover md:bg-top bg-center" />
                 </div>
                 <div className="p-4 px-9 w-full md:w-7/12 md:px-5 flex gap-4 flex-col justify-evenly leading-5">
                     <p className="mb-6 w-55 sm:w-65 md:w-85 text-3xl sm:text-4xl md:text-5xl text-azul-base font-black justify-center leading-[.8] bg-white text-balance"> NOSSO DIFERENCIAL</p>

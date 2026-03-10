@@ -7,19 +7,19 @@ export default function NossoEspaco(){
 
 const fotosNossoEspaco = [
     {
-        srcFoto:["/nossoEspacoFotos/fotoG1.webp"],
+        srcFoto:["/imgs/local/foto-grande-1.webp"],
         altFoto:["foto 1"],
     },
     {
-        srcFoto:["/nossoEspacoFotos/fotoP1.webp", "/nossoEspacoFotos/fotoP2.webp"],
+        srcFoto:["/imgs/local/foto-pequena-1.webp", "/imgs/local/foto-pequena-2.webp"],
         altFoto:["foto 1", "foto 2"],
     },
     {
-        srcFoto:["/nossoEspacoFotos/fotoG2.webp"],
+        srcFoto:["/imgs/local/foto-grande-2.webp"],
         altFoto:["foto 1"],
     },
     {
-        srcFoto:["/nossoEspacoFotos/fotoP3.webp", "/nossoEspacoFotos/fotoP4.webp"],
+        srcFoto:["/imgs/local/foto-pequena-3.webp", "/imgs/local/foto-pequena-4.webp"],
         altFoto:["foto 1", "foto 2"],
     },
 ]

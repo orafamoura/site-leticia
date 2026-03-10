@@ -13,7 +13,7 @@ export default function Carrossel() {
         carrosselTexto: "Atendemos pessoas que apresentam dificuldades no desempenho "+
         " das atividades do cotidiano em decorrência de problemas na memória, atenção, "+
         "concentração, funções executivas e outras habilidades essenciais para a autonomia",
-        carrosselImg:"carrosselImagens/dificuldadeCognitiva.png",
+        carrosselImg:"/imgs/carousel/dificuldade-cognitiva.png",
         carrosselTags:["Demência", "Alzheimer", "Corpos de lewy"]
         },
         {
@@ -22,7 +22,7 @@ export default function Carrossel() {
         carrosselTexto: "Pessoa que tiveram AVE (derrame), Doença de Parkinson ou alguma "+
         " lesão cerebral, que busquem apoio especializado em reabilitação neurológica para maior"+
         " independência e participação nas atividades significativas e da rotina.",
-        carrosselImg:"carrosselImagens/dificuldadesNeurologicas.png",
+        carrosselImg:"/imgs/carousel/dificuldade-neurologica.png",
         carrosselTags:["Doença de Parkinson", "AVE (Derrame)", "Parkinsonismo"]
         },
         {
@@ -30,7 +30,7 @@ export default function Carrossel() {
         carrosselTitulo:["Idosos que querem","manter o cérebro ativo"],
         carrosselTexto: "Idosos que desejam manter o cérebro ativo preservando a independência"+
         " e autonomia, por meio de atividades, exercícios cognitivos e ocupacionais específicos.",
-        carrosselImg:"carrosselImagens/cerebroAtivo.png",
+        carrosselImg:"/imgs/carousel/cerebro-ativo.png",
         carrosselTags:["Transtorno Cognitivo Leve"]
         }
     ]

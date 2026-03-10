@@ -5,21 +5,21 @@ export default function Servicos() {
     
     const itemsServico = [
         {
-            "servicoImg":"/public/icons/cabeca.svg",
+            "servicoImg":"/imgs/icons/cabeca.svg",
             "servicoTitulo":["Reabilitação","Neurológica Ocupacional"],
             "servicoTexto":"Acompanhamento integral realizado por profissional qualificado, utilizando testes e instrumentos"+
             " padronizados nos aspectos neurológicos, no desempenho ocupacional, na funcionalidade, na elaboração do Plano Terapêutico"+
             " Singular (PTS) e em intervenções personalizadas conforme as necessidades de cada paciente e sua família."
         },
         {
-            "servicoImg":"/public/icons/mao.svg",
+            "servicoImg":"/imgs/icons/mao.svg",
             "servicoTitulo":["Reabilitação","Cognitiva Ocupacional"],
             "servicoTexto":"Acompanhamento integral realizado por profissional qualificado, utilizando testes e instrumentos"+
             " padronizados nos aspectos neurológicos, no desempenho ocupacional, na funcionalidade, na elaboração do Plano"+
             " Terapêutico Singular (PTS) e em intervenções personalizadas conforme as necessidades de cada paciente e sua família."
         },
         {
-            "servicoImg":"/public/icons/mao.svg",
+            "servicoImg":"/imgs/icons/mao.svg",
             "servicoTitulo":["Reabilitação","Cognitiva Ocupacional"],
             "servicoTexto":"Acompanhamento integral realizado por profissional qualificado, utilizando testes e instrumentos"+
             " padronizados nos aspectos neurológicos, no desempenho ocupacional, na funcionalidade, na elaboração do Plano"+

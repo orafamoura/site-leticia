@@ -19,14 +19,14 @@ export default function Header() {
                 <div className="w-full flex sm:justify-center items-center whitespace-nowrap [&_p]:max-w-none animate-[marquee_20s_linear_infinite] sm:[animation-play-state:paused] sm:relative">
                     <ul className="items-center sm:absolute sm:justify-center">
                         <li className="flex items-center">
-                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-4" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
-                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-3" src="../../../public/icons/vector.svg"/>Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
+                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-4" src="/imgs/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
+                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-3" src="/imgs/icons/vector.svg"/>Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
                         </li>
                     </ul>
                     <ul className="sm:opacity-0">
                         <li className="flex items-center">
-                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-4" src="../../../public/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
-                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-3" src="../../../public/icons/vector.svg"/>Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
+                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-4" src="/imgs/icons/relogio.svg"/>Atendemos de Segunda à Sexta de 08h às 19h.</p>
+                            <p className="text-sm font-medium tracking-wide gap-1 flex items-center px-8"><img className="w-3" src="/imgs/icons/vector.svg"/>Liberty Mall - Shopping - Asa Norte, Brasília - DF</p>
                         </li>
                     </ul>
                 </div>
@@ -36,7 +36,7 @@ export default function Header() {
             <div className="absolute lg:static left-1/2 -translate-x-1/2">
                 <a href="/" className="block">
                 <img
-                    src="/public/images/HorizontalColoridaSFundo.webp"
+                    src="/imgs/marca/horiz-color-sem-fundo.webp"
                     alt="Instituto Inclusio"
                     className="h-13 w-auto"
                 />
@@ -68,12 +68,12 @@ export default function Header() {
                     <span className="sr-only">Instituto Inclusio</span>
                     <img
                         alt=""
-                        src="/public/images/HorizontalColoridaSFundo.webp"
+                        src="/imgs/marca/horiz-color-sem-fundo.webp"
                         className="h-10 w-auto dark:hidden"
                     />
                     <img
                         alt=""
-                        src="/public/images/HorizontalColoridaSFundo.webp"
+                        src="/imgs/marca/horiz-color-sem-fundo.webp"
                         className="h-10 w-auto not-dark:hidden"
                     />
                     </a>

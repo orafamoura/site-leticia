@@ -5,19 +5,19 @@ export default function Footer(){
     const infoItems = [
         {
             id: 1,
-            img: "/public/icons/map.svg",
+            img: "/imgs/icons/map.svg",
             alt: "Icone de mapa",
             text: "Liberty Mall - Shopping - Asa Norte, Brasília - DF, 70712-903"
         },
         {
             id: 2,
-            img: "/public/icons/relogioBranco.svg",
+            img: "/imgs/icons/relogioBranco.svg",
             alt: "Icone de um relogio",
             text: "Atendemos de Segunda à Sexta de 08h às 19h."
         },
         {
             id: 3,
-            img: "/public/icons/instagram.svg",
+            img: "/imgs/icons/instagram.svg",
             alt: "Icone do Instagram",
             text: "Nos siga no instagram"
         },
@@ -28,7 +28,7 @@ export default function Footer(){
         <>
             <div className="w-full h-full md:h-[200px] flex md:flex-row flex-col-reverse items-center bg-azul-base">
                 <div className="h-full aspect-square bg-white rounded-r-full overflow-hidden flex items-center content-center pl-5 md:pl-7 mr-10 hidden lg:block">
-                    <img className="h-[70%] w-auto" src="/images/LogoVerticalColorida.svg" alt=" Logo Vertical da empresa"/>
+                    <img className="h-[70%] w-auto" src="/imgs/marca/logo-vertical-colorida.svg" alt=" Logo Vertical da empresa"/>
                 </div>
                 <div className="w-auto sm:hidden flex-1 lg:block">
                     <ul className="h-full flex flex-col gap-1 md:gap-3 px-6">
@@ -44,7 +44,7 @@ export default function Footer(){
                     </ul>
                 </div>
                 <div className="flex items-center lg:block md:hidden">
-                    <img className="h-full w-full md:hidden" src="/images/HorizontalBranca.svg" alt=" Logo Vertical da empresa"/>
+                    <img className="h-full w-full md:hidden" src="/imgs/marca/horizontal-branca.svg" alt=" Logo Vertical da empresa"/>
                 </div>
                 <div className="">
                     <iframe

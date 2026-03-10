@@ -4,17 +4,17 @@ export default function NossoAtendimento() {
 
     const nossoAtendimentoItems = [
         {
-            nossoAtendimentoIcon:"/public/icons/telefone.svg",
+            nossoAtendimentoIcon:"/imgs/icons/telefone.svg",
             nossoAtendimentoTitulo:"1º - Fale Conosco",
             nossoAtendimentoTexto:"Clique no botão de WhatsApp para iniciar seu atendimento de forma rápida, prática e segura.",
         },
         {
-            nossoAtendimentoIcon:"/public/icons/calendario.svg",
+            nossoAtendimentoIcon:"/imgs/icons/calendario.svg",
             nossoAtendimentoTitulo:"2º - Agende a Consulta",
             nossoAtendimentoTexto:"Ao nos contatar, esclareceremos suas dúvidas, enviaremos o orçamento e agendaremos a consulta no melhor dia e horário para você.",
         },
         {
-            nossoAtendimentoIcon:"/public/icons/pessoa.svg",
+            nossoAtendimentoIcon:"/imgs/icons/usuario.svg",
             nossoAtendimentoTitulo:"3º - Atendimento",
             nossoAtendimentoTexto:"Nessa etapa, realizaremos a avaliação e a elaboração do plano terapêutico singular individualizado.",
         },       

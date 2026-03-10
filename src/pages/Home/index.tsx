@@ -17,12 +17,12 @@ export default function Home(){
             <div className=" flex flex-col gap-6">
                 <section className="w-full h-[calc(100lvh-100px)] min-h-[calc(100svh-90px)] max-h-[calc(100lvh-90px)]">
                     <div className="w-auto relative h-full overflow-hidden">
-                        <img className="w-full h-lvh max-h-[480px] sm:max-h-[650px] object-cover object-top sm:object-top" src="/images/fotoPrincipal.webp" alt="foto" />
+                        <img className="w-full h-lvh max-h-[480px] sm:max-h-[650px] object-cover object-top sm:object-top" src="/imgs/marca/foto-socias-principal.webp" alt="foto" />
                         <div className=" absolute inset-0 bottom-0 bg-gradient-to-t from-degrade-cinza from-50% sm:from-30% via-degrade-cinza-transparente via-60% sm:via-45% to-transparent to-70% sm:to-65%"></div>
                         <div className="flex flex-col pb-5 md:pb-10 absolute inset-x-0 bottom-10 gap-5 items-center mx-4 md:mx-0">
                             <div className="w-full h-auto flex flex-col md:flex-row justify-center items-center md:gap-9 gap-1">
                                 <div className="rounded-full bg-white p-4">
-                                    <img className="size-30 md:size-40 h-auto pb-1 p-2 mb:pb-3 py-1" src="/images/LogoVerticalColorida.svg" alt=" Logo Vertical da empresa"/>
+                                    <img className="size-30 md:size-40 h-auto pb-1 p-2 mb:pb-3 py-1" src="/imgs/marca/LogoVerticalColorida.svg" alt=" Logo Vertical da empresa"/>
                                 </div>
                                 <div className="w-auto flex flex-col gap-1 text-white items-center md:items-start text-center md:text-start ">
                                     <h1 className="md:max-w-2xl max-w-100 whitespace-normal text-normal leading-4.5 sm:leading-5 md:leading-5 font-bold text-balance">TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA</h1>
@@ -55,7 +55,7 @@ export default function Home(){
                     </div>
                     <div className="relative">
                         <div className="absolute bottom-[28px] left-1/2 -translate-x-1/2 translate-y-full" >
-                            <img className="w-[40px] h-[40px] rounded-full bg-dourado-base p-1" src="/public/icons/weui_arrow-filled.svg" alt=" Logo Vertical da empresa"/>
+                            <img className="w-[40px] h-[40px] rounded-full bg-dourado-base p-1" src="/imgs/icons/seta-para-baixo.svg" alt=" Logo Vertical da empresa"/>
                         </div>
                     </div>
                 </section>
@@ -78,7 +78,7 @@ export default function Home(){
                     <div className="px-4 flex flex-col items-center">
                         <p className="pb-2 md:max-w-4xl max-w-3xl text-destaque leading-[1] font-extrabold text-azul-base text-center text-balance uppercase">Estimulação diária, acessível e pensada para fortalecer as habilidades do paciente</p>
                         <div className="flex flex-col md:flex-row justify-center">
-                            <img className="w-auto md:w-2/5 m-5 inset-y-0 top-[-110px] lg:static" src="/public/cadernoImg/caderno.png" alt="Caderno Inclusio" />
+                            <img className="w-auto md:w-2/5 m-5 inset-y-0 top-[-110px] lg:static" src="/imgs/produtos/caderno.png" alt="Caderno Inclusio" />
                             <div className="md:w-2/6 flex flex-col justify-evenly text-normal">
                                 <p className="text-balance">Nossos cadernos fazem parte do Método Inclusio e reúnem atividades simples, 
                                     variadas e eficazes para estimular memória, atenção, linguagem, raciocínio e 
@@ -107,7 +107,7 @@ export default function Home(){
                         </svg>
                     </div>
                     <div className=" h-[70%] flex flex-col items-center bg-degrade-cinza">
-                        <img className="w-full max-w-[390px] h-[140px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/images/nossosServicos.png)]"></img>
+                        <img className="w-full max-w-[390px] h-[140px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/imgs/marca/nossos-servicos.png)]"></img>
                         <div>
                             <Servicos></Servicos>
                         </div>
@@ -130,7 +130,7 @@ export default function Home(){
                 </section>
                 <section>
                     <NossoDiferencial></NossoDiferencial>
-                    <div className="mt-7 relative w-full h-full min-h-[140px] content-center self-center block bg-[url('/images/agendamento.webp')] bg-no-repeat bg-center bg-cover sm:bg-auto">
+                    <div className="mt-7 relative w-full h-full min-h-[140px] content-center self-center block bg-[url('/imgs/marca/agendamento.webp')] bg-no-repeat bg-center bg-cover sm:bg-auto">
                         <div className="absolute inset-0 bg-[#584525] opacity-40 z-0"></div>
                         <div className="my-2 w-full h-full text-white md:max-w-7/10 lg:max-w-6/10 xl:max-w-4/10 relative flex flex-col gap-3 items-center text-center justify-self-center z-10">
                             <p className="text-normal mx-6 xs:mx-25 font-bold leading-[1.1] tracking-wider text-center">AGENDE UMA AVALIAÇÃO E DESCUBRA COMO A TERAPIA OCUPACIONAL PODE TRANSFORMAR SUA VIDA!</p>
