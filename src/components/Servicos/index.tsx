@@ -1,42 +1,43 @@
-import Button from "../Button"
 import ItemsServico from "./items"
 
 export default function Servicos() {
     
     const itemsServico = [
         {
-            "servicoImg":"/imgs/icons/cabeca.svg",
-            "servicoTitulo":["Reabilitação","Neurológica Ocupacional"],
-            "servicoTexto":"Acompanhamento integral realizado por profissional qualificado, utilizando testes e instrumentos"+
-            " padronizados nos aspectos neurológicos, no desempenho ocupacional, na funcionalidade, na elaboração do Plano Terapêutico"+
-            " Singular (PTS) e em intervenções personalizadas conforme as necessidades de cada paciente e sua família."
+            servicoImg:"/imgs/icons/cabeca.svg",
+            servicoTitulo:["Reabilitação","Neurológica Ocupacional"],
+            servicoTexto:[
+                <>
+                Acompanhamento integral realizado por profissional qualificado para o uso de testes e 
+                instrumentos padronizados no aspecto neurológico, no desempenho ocupacional, na 
+                funcionalidade, elaboração do Plano Terapêutico Singular (PTS) e intervenções 
+                personalizadas para a necessidade de cada paciente e família. 
+                </>
+            ]
         },
         {
-            "servicoImg":"/imgs/icons/mao.svg",
-            "servicoTitulo":["Reabilitação","Cognitiva Ocupacional"],
-            "servicoTexto":"Acompanhamento integral realizado por profissional qualificado, utilizando testes e instrumentos"+
-            " padronizados nos aspectos neurológicos, no desempenho ocupacional, na funcionalidade, na elaboração do Plano"+
-            " Terapêutico Singular (PTS) e em intervenções personalizadas conforme as necessidades de cada paciente e sua família."
-        },
-        {
-            "servicoImg":"/imgs/icons/mao.svg",
-            "servicoTitulo":["Reabilitação","Cognitiva Ocupacional"],
-            "servicoTexto":"Acompanhamento integral realizado por profissional qualificado, utilizando testes e instrumentos"+
-            " padronizados nos aspectos neurológicos, no desempenho ocupacional, na funcionalidade, na elaboração do Plano"+
-            " Terapêutico Singular (PTS) e em intervenções personalizadas conforme as necessidades de cada paciente e sua família."
+            servicoImg:"/imgs/icons/mao.svg",
+            servicoTitulo:["Reabilitação","Cognitiva Ocupacional"],
+            servicoTexto: [
+                <>
+                Atendimento realizado por terapeuta ocupacional especializado para o uso de instrumentos específicos 
+                para a avaliação cognitiva (rastreio cognitivos, testes específicos para avaliar a memória, atenção, 
+                percepção), instrumentos para avaliar desempenho ocupacional, elaboração do Plano Terapêutico Singular 
+                (PTS) e intervenções personalizadas, proporcionando maior resolutividade nas intervenções.
+                </>
+            ]
         }
     ]
     
     return (
         <div className="w-full flex-col text-center">
-            <div className="w-full lg:w-5xl mt-4 h-auto min-h-[400px] min-w-[320px] flex flex-col lg:flex-row lg:justify-center">
+            <div className="w-full lg:w-3xl mt-1 h-auto min-h-[330px] flex flex-col lg:flex-row lg:justify-center">
                 {itemsServico.map(function(item, key){
                     return (
                         <ItemsServico key={key} servicoImg={item.servicoImg} servicoTexto={item.servicoTexto} servicoTitulo={item.servicoTitulo}></ItemsServico>
                     )
                 })}
             </div>
-            <Button className="mb-10 md:mt-10 bg-dourado-base hover:bg-[#c5913e] text-white px-15">SAIBA MAIS</Button>
         </div>
     )
 }

@@ -107,7 +107,7 @@ export default function Home(){
                         </svg>
                     </div>
                     <div className=" h-[70%] flex flex-col items-center bg-degrade-cinza">
-                        <img className="w-full max-w-[390px] h-[140px] my-4 self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/imgs/marca/nossos-servicos.png)]"></img>
+                        <img className="w-full max-w-[390px] h-[140px] self-center block bg-no-repeat bg-center bg-contain sm:bg-auto bg-[url(/imgs/marca/nossos-servicos.png)]"></img>
                         <div>
                             <Servicos></Servicos>
                         </div>

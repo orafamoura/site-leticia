@@ -4,9 +4,9 @@ export default function Modalidades() {
     
     const itemsModalidade = [
         {
-            "modalidadeImg":"/imgs/icons/presencial.svg",
-            "modalidadeTitulo":"Atendimento Presencial",
-            "modalidadeTexto":[
+            modalidadeImg:"/imgs/icons/presencial.svg",
+            modalidadeTitulo:"Atendimento Presencial",
+            modalidadeTexto:[
             <>
                 <strong>Cuidado próximo, completo e pensado para o bem-estar do paciente.</strong>
                 <br></br>
@@ -20,9 +20,26 @@ export default function Modalidades() {
             ]
         },
         {
-            "modalidadeImg":"/imgs/icons/casa.svg",
-            "modalidadeTitulo":"Atendimento Domiciliar",
-            "modalidadeTexto":[
+            modalidadeImg:"/imgs/icons/grupo.svg",
+            modalidadeTitulo:"Atendimento em Grupo",
+            modalidadeTexto:[
+            <>
+                <strong>Os atendimentos em grupo da clínica são estruturados para promover estimulação cognitiva, funcionalidade e participação 
+                social em um ambiente terapêutico acolhedor e estrategicamente planejado.</strong>
+                <br></br>
+                A dinâmica em grupo potencializa os resultados terapêuticos ao incentivar a interação social, fortalecer vínculos e ampliar
+                 o engajamento dos participantes nas atividades propostas. Se você busca uma abordagem terapêutica estruturada para apoiar 
+                 a saúde cognitiva e funcional de um familiar, entre em contato com nossa equipe e conheça os grupos disponíveis.
+            </>,
+            <>
+                <strong>Para quem é ideal:</strong> quem busca participação social em um ambiente terapêutico acolhedor e estrategicamente planejado.
+            </>  
+            ]
+        },
+        {
+            modalidadeImg:"/imgs/icons/casa.svg",
+            modalidadeTitulo:"Atendimento Domiciliar",
+            modalidadeTexto:[
             <>
                 <strong>O cuidado vai até você — conforto, segurança e rotina preservada.</strong>
                 <br></br>
@@ -37,9 +54,9 @@ export default function Modalidades() {
             ]
         },
         {
-            "modalidadeImg":"/imgs/icons/computer.svg",
-            "modalidadeTitulo":"Atendimento Online",
-            "modalidadeTexto":[
+            modalidadeImg:"/imgs/icons/computer.svg",
+            modalidadeTitulo:"Atendimento Online",
+            modalidadeTexto:[
             <>
                 <strong>Acompanhamento de qualquer lugar, com praticidade e continuidade do cuidado.</strong>
                 <br></br>

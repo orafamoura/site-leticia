@@ -20,7 +20,7 @@ export default function ItemsModalidades({modalidadeTitulo, modalidadeTexto, mod
                         </h3>
                     </div>
                     {modalidadeTexto.map((texto, index) => (
-                        <p key={index} className="pb-4 text-[.9rem] text-balance">{texto}</p>
+                        <p key={index} className="pb-4 pr-2 text-[.9rem] text-pretty">{texto}</p>
                     ))}
                 </div>
             </div>
