@@ -124,7 +124,7 @@ export default function Home(){
                 </section>
                 <section className="-mt-6">
                     <div className="bg-azul-base text-center flex flex-col gap-10">
-                        <p className="text-3xl sm:text-4xl md:text-5xl text-white font-extrabold">MODALIDADE</p>
+                        <p className="text-3xl sm:text-4xl md:text-5xl text-white font-extrabold">MODALIDADES</p>
                         <Modalidades></Modalidades>
                     </div>
                 </section>

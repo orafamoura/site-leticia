@@ -1,3 +1,4 @@
+import Button from "../Button"
 import ItemsModalidades from "./items"
 
 export default function Modalidades() {
@@ -10,7 +11,7 @@ export default function Modalidades() {
             <>
                 <strong>Cuidado próximo, completo e pensado para o bem-estar do paciente.</strong>
                 <br></br>
-                No atendimento presencial, o paciente é recebido em um ambiente seguro, equipado e preparado para 
+                No atendimento presencial, o paciente é recebido em um <strong>ambiente seguro, equipado e preparado</strong> para 
                 estimular suas habilidades cognitivas, motoras e funcionais. Aqui, ele conta com o suporte direto 
                 da terapeuta ocupacional, acompanhamento constante e atividades que fortalecem autonomia e qualidade de vida.
             </>,
@@ -27,8 +28,8 @@ export default function Modalidades() {
                 <strong>Os atendimentos em grupo da clínica são estruturados para promover estimulação cognitiva, funcionalidade e participação 
                 social em um ambiente terapêutico acolhedor e estrategicamente planejado.</strong>
                 <br></br>
-                A dinâmica em grupo potencializa os resultados terapêuticos ao incentivar a interação social, fortalecer vínculos e ampliar
-                 o engajamento dos participantes nas atividades propostas. Se você busca uma abordagem terapêutica estruturada para apoiar 
+                A dinâmica em grupo potencializa os resultados terapêuticos ao <strong>incentivar a interação social, fortalecer vínculos e ampliar
+                 o engajamento dos participantes nas atividades propostas.</strong> Se você busca uma abordagem terapêutica estruturada para apoiar 
                  a saúde cognitiva e funcional de um familiar, entre em contato com nossa equipe e conheça os grupos disponíveis.
             </>,
             <>
@@ -43,8 +44,8 @@ export default function Modalidades() {
             <>
                 <strong>O cuidado vai até você — conforto, segurança e rotina preservada.</strong>
                 <br></br>
-                No atendimento domiciliar, levamos a terapia ocupacional diretamente para dentro da casa do paciente
-                 com os mesmos materiais e qualidades dos nossos atendimentos presenciais. Trabalhamos com o que ele 
+                No atendimento domiciliar, levamos a terapia ocupacional <strong>diretamente para dentro da casa do paciente
+                 com os mesmos materiais e qualidades dos nossos atendimentos presenciais.</strong> Trabalhamos com o que ele 
                  vive no dia a dia: organização da rotina, prevenção de quedas, orientação à família e adaptação do 
                  ambiente para torná-lo mais seguro e funcional.
             </>,
@@ -60,8 +61,8 @@ export default function Modalidades() {
             <>
                 <strong>Acompanhamento de qualquer lugar, com praticidade e continuidade do cuidado.</strong>
                 <br></br>
-                O atendimento online permite que o paciente e sua família recebam orientações, exercícios, avaliações e 
-                acompanhamento de forma simples e acessível.É uma forma prática de manter o tratamento ativo, mesmo em 
+                O atendimento online permite que o paciente e sua família recebam<strong> orientações, exercícios, avaliações e 
+                acompanhamento</strong> de forma simples e acessível. É uma forma prática de manter o tratamento ativo, mesmo em 
                 viagens, mudanças temporárias ou quando a rotina está mais corrida.
             </>,
             <>
@@ -79,6 +80,7 @@ export default function Modalidades() {
                     )
                 })}
             </div>
+            <Button className="mt-5 mb-15 bg-dourado-base hover:bg-[#c5913e] text-button text-white px-15 md:px-25">SAIBA MAIS</Button>
         </div>
     )
 }
