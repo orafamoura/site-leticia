@@ -43,11 +43,11 @@ const fotosNossoEspaco = [
                             {fotosNossoEspaco.map((item, index) => {
                                 if (index % 2 === 1) {
                                     return (
-                                        <SwiperSlide key={index} className=" h-full !flex block flex-col gap-3 justify-center items-center">
+                                        <SwiperSlide key={index} className=" h-full !flex block flex-col gap-3 justify-center items-center overflow-visible p-1">
                                             {item.srcFoto.map((foto, subIndex) => (
                                             <img
                                                 key={subIndex}
-                                                className="w-full h-[300px] aspect-square rounded-lg"
+                                                className="w-full h-[300px] aspect-square rounded-lg hover:scale-103 transition-transform duration-300 object-cover"
                                                 src={foto}
                                                 alt={item.altFoto[subIndex]}
                                             />
@@ -56,9 +56,9 @@ const fotosNossoEspaco = [
                                     )
                                 } else {
                                     return item.srcFoto.map((foto, subIndex) => (
-                                        <SwiperSlide key={`${index}-${subIndex}`} className="h-full block !flex items-center justify-center">
+                                        <SwiperSlide key={`${index}-${subIndex}`} className="h-full block !flex items-center justify-center overflow-visible p-1">
                                             <img
-                                            className="w-full h-[610px] block object-cover rounded-lg"
+                                            className="w-full h-[610px] block object-cover rounded-lg hover:scale-103 transition-transform duration-300 object-cover "
                                             src={foto}
                                             alt={item.altFoto[subIndex]}
                                             />

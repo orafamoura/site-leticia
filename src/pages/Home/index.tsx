@@ -22,7 +22,7 @@ export default function Home(){
                         <div className="flex flex-col pb-5 md:pb-10 absolute inset-x-0 bottom-10 gap-5 items-center mx-4 md:mx-0">
                             <div className="w-full h-auto flex flex-col md:flex-row justify-center items-center md:gap-9 gap-1">
                                 <div className="rounded-full bg-white p-4">
-                                    <img className="size-30 md:size-40 h-auto pb-1 p-2 mb:pb-3 py-1" src="/imgs/marca/LogoVerticalColorida.svg" alt=" Logo Vertical da empresa"/>
+                                    <img className="size-30 md:size-40 h-auto pb-1 p-2 mb:pb-3 py-1" src="/imgs/marca/logo-vertical-colorida.svg" alt=" Logo Vertical da empresa"/>
                                 </div>
                                 <div className="w-auto flex flex-col gap-1 text-white items-center md:items-start text-center md:text-start ">
                                     <h1 className="md:max-w-2xl max-w-100 whitespace-normal text-normal leading-4.5 sm:leading-5 md:leading-5 font-bold text-balance">TERAPIA OCUPACIONAL E REABILITAÇÃO NEUROCOGNITIVA</h1>
@@ -70,7 +70,7 @@ export default function Home(){
                     <div className="relative mb-15 w-full left-1/2 -translate-x-1/2">
                         <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 h-px bg-azul-base" />
                             <div className="relative flex justify-center">
-                                <span className="bg-white px-3 md:text-normal font-bold md:tracking-[0.2em] text-dourado-base">
+                                <span className="bg-white px-3 text-[.8rem] md:text-normal font-bold md:tracking-[0.2em] text-dourado-base">
                                 CADERNOS DE ESTIMULAÇÃO COGNITIVA
                                 </span>
                             </div>
@@ -78,18 +78,16 @@ export default function Home(){
                     <div className="px-4 flex flex-col items-center">
                         <p className="pb-2 md:max-w-4xl max-w-3xl text-destaque leading-[1] font-extrabold text-azul-base text-center text-balance uppercase">Estimulação diária, acessível e pensada para fortalecer as habilidades do paciente</p>
                         <div className="flex flex-col md:flex-row justify-center">
-                            <img className="w-auto md:w-2/5 m-5 inset-y-0 top-[-110px] lg:static" src="/imgs/produtos/caderno.png" alt="Caderno Inclusio" />
+                            <img className="w-auto md:w-2/5 m-5 inset-y-0 top-[-110px] lg:static object-cover object-left transform-3d" src="/imgs/produtos/caderno.png" alt="Caderno Inclusio" />
                             <div className="md:w-2/6 flex flex-col justify-evenly text-normal">
-                                <p className="text-balance">Nossos cadernos fazem parte do Método Inclusio e reúnem atividades simples, 
-                                    variadas e eficazes para estimular memória, atenção, linguagem, raciocínio e 
-                                    funções executivas. Cada exercício foi desenvolvido para apoiar o paciente de 
-                                    forma prática, promover autonomia e facilitar a participação da família no cuidado.</p>
-                                <ul className="list-disc marker:text-xs">O que os torna especiais:
+                                <p className="text-balance">Nossos cadernos fazem parte do Método Inclusio e reúnem atividades simples, variadas e eficazes para estimular <strong>memória, atenção, linguagem, raciocínio e funções executivas.</strong> Cada exercício foi desenvolvido para apoiar o paciente de forma prática, promover autonomia e facilitar a participação da família no cuidado.</p>
+                                <ul className="list-disc marker:text-xs"><strong>O que os torna especiais:</strong>
                                     <li className="ml-7">Conteúdo claro e acolhedor, ideal para pacientes e seus familiares.</li>
                                     <li className="ml-7">Atividades diversificadas que mantêm o cérebro ativo todos os dias.</li>
                                     <li className="ml-7">Material estruturado para integrar casa e tratamento, reforçando a rotina cognitiva.</li>
+                                    <li className="ml-7">Design organizado, com exercícios que favorecem foco, engajamento e independência.</li>
                                 </ul>
-                                <p className="text-center text-azul-base font-extrabold text-pretty">Design organizado, com exercícios que favorecem foco, engajamento e independência.</p>
+                                <p className="text-center text-azul-base font-extrabold text-pretty">Um recurso simples, completo e essencial para quem deseja cuidar da saúde cognitiva no dia a dia.</p>
                             </div>
                         </div>
                         <Button className="mt-5 bg-dourado-base text-white hover:bg-[#bb8e47]">QUERO SABER MAIS</Button>
